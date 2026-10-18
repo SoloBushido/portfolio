@@ -1,0 +1,18 @@
+@font-face{font-family:'Libre Caslon Display';font-weight:400;font-display:swap;src:url(fonts/LibreCaslonDisplay-normal-400.woff2) format('woff2');}
+@font-face{font-family:'Libre Caslon Text';font-weight:400;font-display:swap;src:url(fonts/LibreCaslonText-normal-400.woff2) format('woff2');}
+@font-face{font-family:'Libre Caslon Text';font-weight:400;font-style:italic;font-display:swap;src:url(fonts/LibreCaslonText-italic-400.woff2) format('woff2');}
+@font-face{font-family:'Zen Kaku Gothic New';font-weight:400;font-display:swap;src:url(fonts/ZenKakuGothicNew-normal-400.woff2) format('woff2');}
+@font-face{font-family:'Zen Kaku Gothic New';font-weight:500;font-display:swap;src:url(fonts/ZenKakuGothicNew-normal-500.woff2) format('woff2');}
+@font-face{font-family:'Zen Kaku Gothic New';font-weight:700;font-display:swap;src:url(fonts/ZenKakuGothicNew-normal-700.woff2) format('woff2');}
+:root{
+  --bg:#0d0e11; --bg-2:#121317; --bg-3:#191a1f;
+  --fg:#efeee9; --fg-2:#b0afad; --fg-3:#d9d8d3;
+  --line:rgba(239,238,233,.16); --hair:rgba(201,42,25,.75);
+  --accent:#efeee9; --gold-soft:rgba(201,42,25,.16);
+  --display:'Libre Caslon Display','Libre Caslon Text',Georgia,serif;
+  --body:'Zen Kaku Gothic New','Hiragino Kaku Gothic ProN',system-ui,sans-serif;
+}
+h1,h2,h3,h4{font-weight:400;letter-spacing:-.02em}
+.brand{font-family:var(--display);font-weight:400;font-size:20px;letter-spacing:0;text-transform:none}
+:focus-visible{outline-color:#efeee9}
+::selection{background:#c92a19;color:#efeee9}

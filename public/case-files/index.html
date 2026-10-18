@@ -1,0 +1,1262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Karthik Bindumon. Full details.</title>
+<meta name="description" content="Karthik Bindumon builds games, products and learning programmes on one fact: play is how a mind decides what to keep. Game producer at BooBoo Games, Mumbai. Five concept cases across healthcare, logistics, K-12, MedTech and fintech.">
+<meta property="og:title" content="Karthik Bindumon">
+<meta property="og:description" content="Game producer. Learning experience designer. Behaviour by design.">
+<meta property="og:image" content="assets/hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,700;0,800;1,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0A0B0D; --bg-2:#0F1115; --bg-3:#161A21;
+  --fg:#ECE9E2; --fg-2:#9DA3AE; --fg-3:#C9CCD3;
+  --line:#2E3440; --hair:rgba(201,42,25,.35);
+  --accent:#efeee9;
+  --ink:var(--fg); --ink-2:var(--fg-2); --rule:var(--line); --paper:var(--bg-2); --paper-2:var(--bg-2); --gold:var(--accent); --gold-soft:rgba(201,42,25,.14);
+  --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --body:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
+  --w:1200px; --measure:62ch;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,h4{font-family:var(--display);font-weight:700;line-height:1.05;margin:0;letter-spacing:-.02em}
+p{margin:0 0 1em;max-width:var(--measure)}
+a{color:inherit;text-decoration:none;border-bottom:1px solid var(--hair);transition:border-color .2s,color .2s}
+a:hover{border-color:var(--accent);color:#fff}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+img{max-width:100%;display:block}
+.skip{position:absolute;left:-999px;top:8px;background:var(--fg);color:var(--bg);padding:8px 12px}
+.skip:focus{left:8px;z-index:50}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 32px}
+@media (max-width:640px){.wrap{padding:0 20px}}
+
+/* top */
+.top{position:fixed;top:0;left:0;right:0;z-index:30;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(10,11,13,.6);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.14em;text-transform:uppercase;border:0;white-space:nowrap}
+.nav{display:flex;gap:26px;font-size:14px;letter-spacing:.02em}
+.nav a{border:0;padding:6px 0;position:relative;color:var(--fg-3)}
+.nav a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:var(--accent);transition:right .25s}
+.nav a:hover::after,.nav a[aria-current="true"]::after{right:0}
+.nav a[aria-current="true"]{color:#fff}
+@media (max-width:820px){.nav{gap:14px;font-size:13px}.nav a:nth-child(n+5):not(:last-child){display:none}}
+@media (max-width:480px){.brand{font-size:14px;letter-spacing:.04em}.nav{gap:12px;font-size:12px}.nav a:nth-child(3),.nav a:nth-child(4){display:none}}
+
+/* hero */
+.hero{position:relative;min-height:100vh;display:flex;align-items:flex-end;padding:140px 0 72px;overflow:hidden}
+.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:70% 50%;opacity:.55}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--bg) 0%,rgba(10,11,13,.85) 35%,rgba(10,11,13,.25) 70%,rgba(10,11,13,.6) 100%),linear-gradient(180deg,rgba(10,11,13,.2),var(--bg) 92%)}
+.hero .wrap{position:relative;z-index:1;width:100%}
+.kicker{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-2);margin-bottom:22px}
+.hero h1{font-size:clamp(40px,7.2vw,104px);line-height:.98;letter-spacing:-.025em;margin-bottom:28px;max-width:14ch}
+.hero h1 em{font-style:italic}
+.lede{font-size:clamp(18px,2vw,22px);max-width:44ch;color:var(--fg-3);margin-bottom:34px}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:56px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border:1px solid var(--fg);background:var(--fg);color:var(--bg);font-size:14px;letter-spacing:.06em;text-transform:uppercase;transition:background .2s,color .2s,border-color .2s}
+.btn:hover{background:transparent;color:var(--fg);border-color:var(--fg)}
+.btn.ghost{background:transparent;color:var(--fg);border-color:var(--line)}
+.btn.ghost:hover{border-color:var(--accent);color:#fff}
+.stats{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line)}
+.stats li{padding:22px 24px 0 0}
+.stats li+li{border-left:1px solid var(--line);padding-left:24px}
+.stats b{display:block;font-family:var(--display);font-weight:800;font-size:clamp(34px,4vw,56px);line-height:1;margin-bottom:6px}
+.stats span{font-size:13px;color:var(--fg-2);letter-spacing:.02em}
+@media (max-width:820px){.stats{grid-template-columns:1fr 1fr}.stats li:nth-child(3){border-left:0;padding-left:0}.stats li{padding-top:16px}}
+
+/* page head */
+.pagehead{padding:150px 0 72px;border-top:0}
+.pagehead h1{font-size:clamp(34px,5vw,64px);max-width:20ch;letter-spacing:-.02em;margin-bottom:22px}
+/* sections */
+section{padding:112px 0;border-top:1px solid var(--line);position:relative;scroll-margin-top:64px}
+.hero{border-top:0}
+.sec-head{display:grid;grid-template-columns:72px 1fr auto;gap:24px;align-items:baseline;margin-bottom:48px}
+.sec-head .idx{font-family:var(--display);font-style:italic;font-size:20px;color:var(--accent)}
+.sec-head h2{font-size:clamp(34px,5vw,64px);letter-spacing:-.03em;font-weight:800}
+.sec-head .sub{grid-column:2;margin:14px 0 0;color:var(--fg-2);font-size:18px;max-width:58ch}
+.sub{color:var(--fg-2);font-size:18px;max-width:58ch}
+@media (max-width:640px){.sec-head{grid-template-columns:1fr;gap:8px}.sec-head .sub{grid-column:1}}
+
+/* about */
+.about{display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:start}
+@media (max-width:920px){.about{grid-template-columns:1fr;gap:40px}}
+.portrait{position:relative}
+.portrait img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;filter:grayscale(.15) contrast(1.05)}
+.portrait::before{content:"";position:absolute;inset:0;transform:translate(16px,16px);border:1px solid var(--hair);z-index:-1}
+.about .q{font-family:var(--display);font-size:clamp(26px,3vw,38px);line-height:1.2;letter-spacing:-.01em;margin-bottom:24px;max-width:22ch}
+.about p{color:var(--fg-3)}
+.creed{list-style:none;padding:0;margin:28px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:0}
+.creed li{padding:16px 20px 16px 0;border-top:1px solid var(--line);font-family:var(--display);font-size:22px}
+.creed li span{display:block;font-family:var(--body);font-size:14px;color:var(--fg-2);margin-top:4px}
+@media (max-width:640px){.creed{grid-template-columns:1fr}}
+
+/* work */
+.reel{position:relative;aspect-ratio:16/9;background:var(--bg-2);border:1px solid var(--line);overflow:hidden;margin-bottom:24px;cursor:pointer}
+.reel img{width:100%;height:100%;object-fit:cover;opacity:.7;transition:opacity .3s,transform .6s}
+.reel:hover img{opacity:.9;transform:scale(1.02)}
+.reel .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:92px;height:92px;border-radius:50%;border:1px solid var(--fg);display:grid;place-items:center;font-size:13px;letter-spacing:.14em;text-transform:uppercase;background:rgba(10,11,13,.5);backdrop-filter:blur(6px)}
+.reel .cap{position:absolute;left:24px;bottom:20px;font-family:var(--display);font-size:22px}
+.reel.live .play,.reel.live .cap,.reel.live img{display:none}
+.reel iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.tiles{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.tile{position:relative;grid-column:span 2;aspect-ratio:16/9;overflow:hidden;border:1px solid var(--line);display:block}
+.tile:nth-child(4),.tile:nth-child(5){grid-column:span 3}
+.tile img{width:100%;height:100%;object-fit:cover;opacity:.75;transition:transform .6s,opacity .3s}
+.tile:hover img{transform:scale(1.04);opacity:1}
+.tile:hover{border-color:var(--accent)}
+.tile .t{position:absolute;left:18px;bottom:14px;font-family:var(--display);font-size:22px;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.tile .n{position:absolute;right:16px;top:12px;font-family:var(--display);font-style:italic;font-size:15px;color:var(--accent)}
+@media (max-width:820px){.tile,.tile:nth-child(4),.tile:nth-child(5){grid-column:span 3}}
+@media (max-width:520px){.tile,.tile:nth-child(4),.tile:nth-child(5){grid-column:span 6}}
+
+/* plays */
+.plays{border-top:1px solid var(--line)}
+.play{border-bottom:1px solid var(--line)}
+.play summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:56px 200px 1fr;gap:20px;align-items:baseline;padding:18px 0;transition:background .2s}
+.play summary::-webkit-details-marker{display:none}
+.play summary:hover h3,.play[open] summary h3{color:var(--accent)}
+.play .pno{font-family:var(--display);font-style:italic;font-size:15px;color:var(--fg-2)}
+.play .psec{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-2);padding-top:6px}
+.play h3{font-size:clamp(20px,2.3vw,30px);line-height:1.15;transition:color .2s}
+.play .pd{padding:0 0 22px 276px;max-width:calc(276px + 64ch)}
+.play .pd p{color:var(--fg-3);margin:0 0 8px;font-size:15.5px}
+.play .pd p b{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:2px}
+.play .pd .doc{margin-top:10px}
+@media (max-width:820px){.play summary{grid-template-columns:40px 1fr;grid-template-areas:"n s" "n h"}.play .pno{grid-area:n}.play .psec{grid-area:s;padding:0}.play h3{grid-area:h}.play .pd{padding-left:60px}}
+
+/* cases */
+.notice{border-left:1px solid var(--accent);padding:4px 0 4px 20px;max-width:64ch;margin-bottom:22px;color:var(--fg-3)}
+.notice p:last-child{margin:0}
+.all-depth{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:14px;color:var(--fg-2);margin-bottom:56px}
+.all-depth button{border:1px solid var(--line);padding:7px 14px;color:var(--fg-3);letter-spacing:.04em;text-transform:uppercase;font-size:12px}
+.all-depth button:hover{border-color:var(--accent);color:#fff}
+.case{border-top:1px solid var(--line);padding:56px 0 64px}
+.case-head{display:grid;grid-template-columns:96px 1fr auto;gap:28px;align-items:start}
+@media (max-width:820px){.case-head{grid-template-columns:64px 1fr}.case-head .depth{grid-column:1/-1}}
+.case-no{font-family:var(--display);font-style:italic;font-size:56px;line-height:.9;color:var(--accent)}
+.case-sector{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-2);margin-bottom:10px}
+.case h3{font-size:clamp(34px,4.5vw,56px);margin-bottom:8px}
+.case-sub{font-size:19px;color:var(--fg-2);margin:0}
+.depth{display:flex;border:1px solid var(--line);align-self:center}
+.depth button{padding:12px 18px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-2);border-right:1px solid var(--line);transition:background .2s,color .2s}
+.depth button:last-child{border-right:0}
+.depth button[aria-selected="true"]{background:var(--fg);color:var(--bg)}
+.case-body{display:grid;grid-template-columns:1fr 400px;gap:56px;margin-top:40px;align-items:start}
+@media (max-width:920px){.case-body{grid-template-columns:1fr;gap:32px}}
+.pane{display:none}
+.case[data-depth="shu"] .pane[data-depth="shu"],.case[data-depth="ha"] .pane[data-depth="ha"],.case[data-depth="ri"] .pane[data-depth="ri"]{display:block}
+.pane h4,.role h4{font-family:var(--body);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:0 0 6px;font-weight:600}
+.pane p+h4,.pane ul+h4{margin-top:24px}
+.role h4{margin:28px 0 8px}.role h4:first-child{margin-top:0}
+.pane ul,.rl{padding-left:0;list-style:none;margin:0;max-width:var(--measure)}
+.pane li,.rl li{padding:12px 0;border-bottom:1px solid var(--line);color:var(--fg-3)}
+.pane li b,.rl li b{color:var(--fg);font-weight:600}
+.pane .real{font-family:var(--display);font-size:24px;line-height:1.3;border-left:1px solid var(--accent);padding-left:20px;margin:8px 0 24px;color:var(--fg)}
+.act{display:grid;grid-template-columns:132px 1fr;gap:0 20px;margin:0;max-width:var(--measure)}
+.act dt{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:600;padding:14px 0;border-bottom:1px solid var(--line)}
+.act dd{margin:0;padding:13px 0;border-bottom:1px solid var(--line);color:var(--fg-3)}
+@media (max-width:520px){.act{grid-template-columns:1fr;gap:0}.act dt{padding-bottom:2px;border:0}.act dd{padding-top:0}}
+
+/* instruments (toys) */
+.toy{margin:0;background:var(--bg-2);padding:22px;border:1px solid var(--line);position:relative;color:var(--fg)}
+.toy::before{content:"";position:absolute;left:-1px;top:-1px;width:44px;height:1px;background:var(--accent)}
+.toy figcaption{font-size:12.5px;color:var(--fg-2);margin-top:14px;line-height:1.5}
+.toy .ctl{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.toy .ctl button{border:1px solid var(--line);padding:8px 12px;font-size:13px;color:var(--fg-3);transition:.2s}
+.toy .ctl button:hover{border-color:var(--accent);color:#fff}
+.toy .ctl button[aria-pressed="true"],.toy .ctl button.primary{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.toy svg{width:100%;height:auto;display:block}
+.toy .out{font-family:var(--display);font-size:19px;line-height:1.35;margin:14px 0 0;min-height:48px}
+.toy input[type=range]{width:100%;accent-color:var(--accent)}
+.toy .row{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--fg-2)}
+.toy .row .num{font-family:var(--display);font-size:20px;min-width:24px;text-align:center;color:var(--fg)}
+.toy .step{width:30px;height:30px;border:1px solid var(--line);font-size:17px;line-height:1}
+.toy .step:hover{border-color:var(--accent)}
+.bars{display:grid;gap:10px;margin-top:14px}
+.bar{display:grid;grid-template-columns:96px 1fr auto;gap:10px;align-items:center;font-size:13px}
+.bar i{display:block;height:12px;background:var(--line);position:relative}
+.bar i::after{content:"";position:absolute;left:0;top:0;bottom:0;width:var(--pct,0%);background:var(--fg-2);transition:width .6s ease}
+.bar.picked i::after{background:var(--accent)}
+.bar span{color:var(--fg-2)}.bar b{font-family:var(--display);font-weight:400;font-size:15px;min-width:84px;text-align:right}
+.case-foot{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;margin-top:8px;padding-top:18px;border-top:1px solid var(--line)}
+.status{font-size:13px;color:var(--fg-2);max-width:56ch;margin:0}
+.doc{display:inline-flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line);padding:12px 16px;transition:.2s}
+.doc:hover{border-color:var(--fg);background:var(--fg);color:var(--bg)}
+.rank{list-style:none;padding:0;margin:0}
+.rank li{display:grid;grid-template-columns:1fr auto;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13px;transition:opacity .3s}
+.rank li.cut{opacity:.4;text-decoration:line-through}
+.rank li span{font-size:14px}
+.pipe{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;margin:0 0 18px;padding:0;list-style:none;font-size:11px;color:var(--fg-2)}
+.pipe li{border:1px solid var(--line);padding:8px 3px;text-align:center;line-height:1.3;overflow-wrap:anywhere}
+.pipe li b{display:block;font-family:var(--display);font-size:14px;font-weight:400;color:var(--fg)}
+.pipe li.gate{border-color:var(--accent)}
+.ask{list-style:none;padding:0;margin:0 0 12px}
+.ask li{font-family:var(--display);font-size:18px;line-height:1.4;padding:10px 0;border-bottom:1px solid var(--line)}
+.ask li[hidden]{display:none}
+
+/* roles */
+.role-grid{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:56px;align-items:start}
+.role-grid>*{min-width:0}
+@media (max-width:920px){.role-grid{grid-template-columns:1fr;gap:32px}}
+.role{padding:80px 0}
+.role .sec-head{margin-bottom:8px}
+.role .sec-head+.sub{margin-bottom:36px}
+.role-foot{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+
+/* services */
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+@media (max-width:920px){.services{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.services{grid-template-columns:1fr}}
+.svc{border:1px solid var(--line);padding:0;position:relative;overflow:hidden;display:flex;flex-direction:column;min-height:420px;transition:border-color .2s}
+.svc:hover{border-color:var(--accent)}
+.svc img{width:100%;height:220px;object-fit:cover;object-position:center;opacity:.85}
+.svc .body{padding:22px}
+.svc h3{font-size:26px;margin-bottom:8px}
+.svc p{font-size:15px;color:var(--fg-2);margin-bottom:18px}
+.svc .doc{margin-top:auto;align-self:flex-start}
+.svc.text{background:var(--bg-2)}
+.svc.text .glyph{height:220px;display:grid;place-items:center;font-family:var(--display);font-style:italic;font-size:96px;color:var(--accent);border-bottom:1px solid var(--line)}
+
+/* method */
+.principles{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:72px}
+@media (max-width:920px){.principles{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.principles{grid-template-columns:1fr}}
+.principle{padding:26px 24px 26px 0}
+.principle+.principle{border-left:1px solid var(--line);padding-left:24px}
+@media (max-width:920px){.principle:nth-child(3){border-left:0;padding-left:0}.principle{border-top:1px solid var(--line)}}
+.principle .jp{font-family:var(--display);font-style:italic;font-size:15px;color:var(--accent);margin-bottom:12px}
+.principle h3{font-size:26px;margin-bottom:10px}
+.principle p{color:var(--fg-2);margin:0;font-size:15px}
+.loop{display:grid;grid-template-columns:320px 1fr;gap:56px;align-items:start}
+@media (max-width:820px){.loop{grid-template-columns:1fr}}
+.loop h3{font-size:34px;margin-bottom:8px}
+.loop-ring{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.loop-ring button{width:100%;padding:14px 8px;border:1px solid var(--line);font-family:var(--display);font-size:17px;text-align:center;transition:.2s}
+.loop-ring button:hover{border-color:var(--accent)}
+.loop-ring button[aria-selected="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.loop-ring small{display:block;font-family:var(--body);font-size:11px;color:var(--fg-2);margin-top:4px;letter-spacing:.04em}
+.loop-ring button[aria-selected="true"] small{color:var(--bg)}
+.loop-panel{border-left:1px solid var(--accent);padding-left:28px;min-height:190px}
+.loop-panel h4{font-size:26px;margin-bottom:10px;font-family:var(--display);text-transform:none;letter-spacing:0;color:var(--fg)}
+.loop-panel .q{font-size:19px;margin-bottom:12px}
+.loop-panel .t{color:var(--fg-2);margin:0}
+
+/* practice */
+.timeline{list-style:none;padding:0;margin:0;max-width:76ch}
+.timeline li{display:grid;grid-template-columns:170px 1fr;gap:24px;padding:22px 0;border-bottom:1px solid var(--line)}
+@media (max-width:640px){.timeline li{grid-template-columns:1fr;gap:4px}}
+.timeline .when{font-size:13px;color:var(--fg-2);letter-spacing:.04em;text-transform:uppercase;padding-top:6px}
+.timeline h3{font-size:24px;margin-bottom:6px}
+.timeline p{margin:0;font-size:15.5px;color:var(--fg-3)}
+.links{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px}
+.links a{border:1px solid var(--line);padding:12px 16px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;transition:.2s}
+.links a:hover{border-color:var(--fg);background:var(--fg);color:var(--bg)}
+
+/* theory */
+.bench-wrap summary{cursor:pointer;font-family:var(--display);font-size:22px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);list-style:none}
+.bench-wrap summary::-webkit-details-marker{display:none}
+.bench-wrap summary::before{content:"+";display:inline-block;width:1.4em;color:var(--accent)}
+.bench-wrap[open] summary::before{content:"\2212"}
+.bench{list-style:none;padding:0;margin:12px 0 0;columns:2;column-gap:56px}
+@media (max-width:820px){.bench{columns:1}}
+.bench li{break-inside:avoid;padding:14px 0;border-bottom:1px solid var(--line)}
+.bench b{display:block;font-family:var(--display);font-weight:400;font-size:19px}
+.bench span{color:var(--fg-2);font-size:14px}
+.bench em{font-style:normal;color:var(--accent);font-size:12px;display:block;margin-top:4px;letter-spacing:.06em;text-transform:uppercase}
+
+/* evaluation */
+.eval{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+@media (max-width:820px){.eval{grid-template-columns:1fr}}
+.eval h3{font-size:28px;margin-bottom:14px}
+.obj{font-family:var(--display);font-size:24px;line-height:1.35;border-left:1px solid var(--accent);padding-left:20px;margin-bottom:14px}
+.obj u{text-decoration:none;border-bottom:1px solid var(--accent)}
+.legend{font-size:14px;color:var(--fg-2)}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:12px 12px 12px 0;border-bottom:1px solid var(--line)}
+th{font-weight:600;width:120px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);padding-top:15px}
+td{color:var(--fg-3)}
+.refuse{margin-top:48px;max-width:70ch}
+.refuse h3{font-size:28px;margin-bottom:10px}
+.refuse ul{padding-left:0;list-style:none;margin:0}
+.refuse li{padding:10px 0;border-bottom:1px solid var(--line);color:var(--fg-3)}
+
+/* contact */
+.contact{padding:140px 0}
+.contact h2{font-size:clamp(40px,7vw,104px);letter-spacing:-.03em;max-width:14ch;margin-bottom:28px}
+.contact h2 em{font-style:italic}
+.contact p{font-size:19px;color:var(--fg-3);max-width:52ch}
+footer{padding:28px 0;font-size:12.5px;color:var(--fg-2);border-top:1px solid var(--line);letter-spacing:.02em}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+/* ===== rich layer ===== */
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:97;opacity:.07;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+#progress{position:fixed;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--accent),#fff);z-index:60;box-shadow:0 0 12px rgba(201,42,25,.8)}
+@media (hover:hover) and (pointer:fine){
+  body{cursor:none}
+  a,button,summary,[role=button],input{cursor:none}
+  #cur{position:fixed;left:0;top:0;width:8px;height:8px;border-radius:50%;background:var(--accent);pointer-events:none;z-index:98;transform:translate(-50%,-50%);box-shadow:0 0 14px rgba(201,42,25,.9)}
+  #ring{position:fixed;left:0;top:0;width:34px;height:34px;border-radius:50%;border:1px solid rgba(201,42,25,.7);pointer-events:none;z-index:98;transform:translate(-50%,-50%);transition:width .18s,height .18s,border-color .18s,background .18s}
+  body.hovering #ring{width:56px;height:56px;border-color:rgba(255,255,255,.9);background:rgba(201,42,25,.10)}
+}
+@media (hover:none){#cur,#ring{display:none}}
+.glow{position:absolute;border-radius:50%;pointer-events:none;filter:blur(60px);z-index:0}
+.glow.a{width:52vw;height:52vw;right:-10vw;top:-10vw;background:radial-gradient(circle,rgba(201,42,25,.20),transparent 62%)}
+.glow.b{width:40vw;height:40vw;left:-14vw;bottom:-14vw;background:radial-gradient(circle,rgba(236,233,226,.07),transparent 62%)}
+section{overflow:hidden}
+section .wrap{position:relative;z-index:1}
+section[data-num]::before{content:attr(data-num);position:absolute;right:-.04em;top:.05em;font-family:var(--display);font-style:italic;font-size:26vw;line-height:1;color:var(--fg);opacity:.035;pointer-events:none;z-index:0}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .75s cubic-bezier(.2,.7,.2,1),transform .75s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--i,0)*70ms)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+.spot{position:relative}
+.spot::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(201,42,25,.13),transparent 46%)}
+.spot:hover::after{opacity:1}
+.lift{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s,border-color .2s}
+.lift:hover{transform:translateY(-5px);box-shadow:0 24px 60px rgba(0,0,0,.55),0 0 0 1px rgba(201,42,25,.35)}
+@media (prefers-reduced-motion:reduce){.lift:hover{transform:none}}
+#sphere{position:absolute;inset:0;width:100%;height:100%;z-index:0;opacity:.95}
+.hero-bg{opacity:.16}
+.hero h1{background:linear-gradient(115deg,#ffffff 0%,#ECE9E2 48%,#efeee9 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stats b{background:linear-gradient(180deg,#fff,#B9C0CC);-webkit-background-clip:text;background-clip:text;color:transparent}
+.marquee{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0;position:relative;z-index:1;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marquee .track{display:flex;gap:44px;width:max-content;animation:mq 70s linear infinite;white-space:nowrap}
+.marquee:hover .track{animation-play-state:paused}
+.marquee span{font-family:var(--display);font-size:20px;color:var(--fg-2)}
+.marquee span::after{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--accent);margin-left:44px;vertical-align:middle;opacity:.7}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.marquee .track{animation:none}}
+.tile:nth-child(2) img{filter:hue-rotate(45deg) saturate(1.1)}
+.tile:nth-child(3) img{filter:hue-rotate(110deg)}
+.tile:nth-child(4) img{filter:hue-rotate(200deg)}
+.tile:nth-child(5) img{filter:hue-rotate(290deg)}
+.tile::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(10,11,13,.85));pointer-events:none}
+.tile .t,.tile .n{z-index:1}
+.card{box-shadow:0 30px 80px rgba(0,0,0,.6);border-color:rgba(201,42,25,.35)}
+.flip .face.back{box-shadow:0 0 0 1px rgba(201,42,25,.5),0 20px 60px rgba(201,42,25,.12)}
+.btn{box-shadow:0 0 0 0 rgba(201,42,25,0);transition:box-shadow .3s,background .2s,color .2s}
+.btn:hover{box-shadow:0 0 0 6px rgba(201,42,25,.15)}
+.top{background:rgba(10,11,13,.55)}
+.brand{background:linear-gradient(90deg,#fff,#C9CCD3);-webkit-background-clip:text;background-clip:text;color:transparent}
+</style>
+<link rel="stylesheet" href="skin.css">
+</head>
+<body>
+<a class="skip" href="#cases">Skip to the cases</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../">Karthik Bindumon</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="../">Home</a>
+      <a href="#plays">Cases</a>
+      <a href="#cases">Case files</a>
+      <a href="#roles">Roles</a>
+      <a href="#method">Method</a>
+      <a href="#practice">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="pagehead" id="top">
+  <div class="wrap">
+    <p class="kicker">Full case files</p>
+    <h1>Every case, every finding, the method, the measurements and the record.</h1>
+    <p class="lede">The full detail behind the front page: all 32 cases, five complete case files with working demos, the four roles, the method, how results are measured, and the record.</p>
+  </div>
+</section>
+
+
+<section id="plays" class="">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">01</span><h2>32 open cases, by industry</h2><p class="sub">Proposals, not delivered projects. Each has a finding and a target. The first five have complete case files and working demos below.</p></div>
+    <div class="plays"><details class="play"><summary><span class="pno">01</span><span class="psec">Hospitals</span><h3>Improve hand hygiene compliance without a training module</h3></summary><div class="pd"><p><b>How</b>A pressure tile at the ward door lights a path to the sanitiser dispenser. Using the dispenser completes the action. No classroom time.</p><p><b>Target</b>75% hand-rub compliance at ward entry within 8 weeks, measured against a control ward.</p><a class="doc" href="#case-1">Read the full plan</a></div></details><details class="play"><summary><span class="pno">02</span><span class="psec">Warehouses</span><h3>Replace the 2-hour induction with 12 short exercises on the warehouse floor</h3></summary><div class="pd"><p><b>How</b>New pickers learn on live shelves with a buddy. Each exercise takes under 7 minutes.</p><p><b>Target</b>Day-7 pick accuracy equal to experienced staff. Week-one near-misses at the site average by day 30.</p><a class="doc" href="#case-2">Read the full plan</a></div></details><details class="play"><summary><span class="pno">03</span><span class="psec">Schools, Grade 5</span><h3>Teach fractions with a sharing game before introducing numbers</h3></summary><div class="pd"><p><b>How</b>Students cut paper rotis to share fairly and compare pieces. Written fractions are introduced in session three.</p><p><b>Target</b>80% of students correctly order fractions after four sessions.</p><a class="doc" href="#case-3">Read the full plan</a></div></details><details class="play"><summary><span class="pno">04</span><span class="psec">Physiotherapy</span><h3>Increase home-exercise completion with a bead counter instead of an app</h3></summary><div class="pd"><p><b>How</b>Ten beads on a loop. Move one per repetition. The physiotherapist checks it at each visit. No streaks, no notifications.</p><p><b>Target</b>70% of prescribed sessions completed over 6 weeks, against usual care.</p><a class="doc" href="#case-4">Read the full plan</a></div></details><details class="play"><summary><span class="pno">05</span><span class="psec">Banking apps</span><h3>Get first-time earners to set up automatic savings with a 6-minute simulation</h3></summary><div class="pd"><p><b>How</b>Users play through 36 paydays, then see the outcome of the choices they did not make, with one button to set up an auto-transfer.</p><p><b>Target</b>25% set up an automatic transfer within 90 days, against users who read an article.</p><a class="doc" href="#case-5">Read the full plan</a></div></details><details class="play"><summary><span class="pno">06</span><span class="psec">Pharma sales</span><h3>Train sales reps with practice calls they are designed to lose first</h3></summary><div class="pd"><p><b>How</b>The first three practice calls cannot be won. Reps learn the doctor's objections by losing, then start winning.</p><p><b>Target</b>Higher follow-up rate after first calls, this cohort against the last.</p></div></details><details class="play"><summary><span class="pno">07</span><span class="psec">Cybersecurity</span><h3>Cut phishing clicks by having staff write a phishing email themselves</h3></summary><div class="pd"><p><b>How</b>Each team writes one email designed to fool another team. The security desk picks the best one.</p><p><b>Target</b>Lower click rate in the next simulated phishing test.</p></div></details><details class="play"><summary><span class="pno">08</span><span class="psec">Compliance</span><h3>Turn anti-bribery training into a decision game with a review at the end</h3></summary><div class="pd"><p><b>How</b>Employees make choices in realistic scenarios. At the end their own decisions are shown back to them as evidence.</p><p><b>Target</b>More incidents reported within 48 hours.</p></div></details><details class="play"><summary><span class="pno">09</span><span class="psec">Factories</span><h3>Reduce accidents with a 60-second near-miss exercise at shift start</h3></summary><div class="pd"><p><b>How</b>Each worker names one possible near-miss at their station. The best one is fixed by Friday.</p><p><b>Target</b>More near-miss reports, fewer injuries, over two quarters.</p></div></details><details class="play"><summary><span class="pno">10</span><span class="psec">Construction sites</span><h3>Run the daily toolbox talk as a 2-minute card game the crew runs itself</h3></summary><div class="pd"><p><b>How</b>The crew draws three hazard cards and places them on the day's plan before the supervisor arrives.</p><p><b>Target</b>Higher PPE compliance on unannounced spot checks.</p></div></details><details class="play"><summary><span class="pno">11</span><span class="psec">Hotels</span><h3>Replace the housekeeping checklist with 12 visual cues</h3></summary><div class="pd"><p><b>How</b>Twelve fixed cues, like a towel fold or a tag position, make an unfinished room obvious from the doorway.</p><p><b>Target</b>Fewer defects per room at inspection.</p></div></details><details class="play"><summary><span class="pno">12</span><span class="psec">Retail stores</span><h3>Teach product knowledge with a 3-minute daily game</h3></summary><div class="pd"><p><b>How</b>Staff match a customer need to the wrong product and explain why. The right choice becomes obvious.</p><p><b>Target</b>Higher attach rate on the trained categories.</p></div></details><details class="play"><summary><span class="pno">13</span><span class="psec">Restaurants</span><h3>Improve order accuracy by having the kitchen rate the counter's tickets</h3></summary><div class="pd"><p><b>How</b>The kitchen scores each ticket for clarity. Counter staff play to the kitchen's score.</p><p><b>Target</b>Fewer remakes, faster ticket times.</p></div></details><details class="play"><summary><span class="pno">14</span><span class="psec">Bank operations</span><h3>Train fraud detection by having staff build fake applications for colleagues to catch</h3></summary><div class="pd"><p><b>How</b>Each week one team member creates a fake application. Peers must catch it before the audit sample.</p><p><b>Target</b>Fewer missed cases in audits.</p></div></details><details class="play"><summary><span class="pno">15</span><span class="psec">Insurance</span><h3>Improve claims handling by having adjusters go through a claim as the customer</h3></summary><div class="pd"><p><b>How</b>A simulated claim from the customer's side, including the real waiting times.</p><p><b>Target</b>Fewer complaints and higher satisfaction after claims.</p></div></details><details class="play"><summary><span class="pno">16</span><span class="psec">Call centres</span><h3>Replace scripts with a conversation map learned through practice calls</h3></summary><div class="pd"><p><b>How</b>Agents learn the conversation as twelve areas, not a script, and practise on random callers.</p><p><b>Target</b>Higher first-call resolution, lower handle time.</p></div></details><details class="play"><summary><span class="pno">17</span><span class="psec">Software products</span><h3>Improve onboarding by giving new users something to fix</h3></summary><div class="pd"><p><b>How</b>A sandbox with one deliberately broken workflow. Fixing it teaches the product.</p><p><b>Target</b>Higher week-one activation than the current tour.</p></div></details><details class="play"><summary><span class="pno">18</span><span class="psec">HR, new hires</span><h3>Help new hires learn the organisation by drawing the org chart on day one</h3></summary><div class="pd"><p><b>How</b>New hires guess who decides what, then compare with the real chart. The gaps are the people to meet this week.</p><p><b>Target</b>Faster first cross-team deliverable, better 90-day retention.</p></div></details><details class="play"><summary><span class="pno">19</span><span class="psec">Management training</span><h3>Practise difficult conversations in pairs, switching roles every 10 minutes</h3></summary><div class="pd"><p><b>How</b>Two managers, roles swapped every ten minutes, no facilitator.</p><p><b>Target</b>Better feedback scores from direct reports at 90 days.</p></div></details><details class="play"><summary><span class="pno">20</span><span class="psec">Public health, schools</span><h3>Increase handwashing with a class-level counter on the tap</h3></summary><div class="pd"><p><b>How</b>The class sees its own weekly count. No individual names.</p><p><b>Target</b>Lower absenteeism over one term, against similar schools.</p></div></details><details class="play"><summary><span class="pno">21</span><span class="psec">Agriculture</span><h3>Increase adoption of new farming practices with a three-season table game</h3></summary><div class="pd"><p><b>How</b>Farmers play three seasons with weather dice. The new practice is the only strategy that survives the dry year.</p><p><b>Target</b>Adoption of the practice in the next planting season.</p></div></details><details class="play"><summary><span class="pno">22</span><span class="psec">Elder care</span><h3>Improve medication adherence with a pillbox filled weekly by a family member</h3></summary><div class="pd"><p><b>How</b>A family member fills the weekly pillbox during a fixed weekly call. The box is the record.</p><p><b>Target</b>Adherence measured by blister-pack count at 8 weeks.</p></div></details><details class="play"><summary><span class="pno">23</span><span class="psec">Energy</span><h3>Reduce household electricity use with neighbourhood comparisons</h3></summary><div class="pd"><p><b>How</b>Households see how their best week compares to the block. Only best weeks are shown.</p><p><b>Target</b>Lower kilowatt-hours per household over a quarter.</p></div></details><details class="play"><summary><span class="pno">24</span><span class="psec">Public transport</span><h3>Speed up boarding with painted lanes and a visible countdown</h3></summary><div class="pd"><p><b>How</b>Painted queue lanes and a countdown clock on the platform.</p><p><b>Target</b>Shorter stop times.</p></div></details><details class="play"><summary><span class="pno">25</span><span class="psec">Car dealerships</span><h3>Increase test-drive conversion by letting the customer drive a planned route</h3></summary><div class="pd"><p><b>How</b>The customer drives a route built around three decisions. The salesperson only answers questions.</p><p><b>Target</b>Higher test-drive-to-sale conversion.</p></div></details><details class="play"><summary><span class="pno">26</span><span class="psec">Real estate</span><h3>Qualify buyers with a 4-minute questionnaire before site visits</h3></summary><div class="pd"><p><b>How</b>A short choice-based questionnaire about budget, commute and trade-offs. Visits are booked from the result.</p><p><b>Target</b>Higher site-visit-to-offer rate.</p></div></details><details class="play"><summary><span class="pno">27</span><span class="psec">Telecom retail</span><h3>Reduce activation errors by training on forms with one planted mistake</h3></summary><div class="pd"><p><b>How</b>Staff practise on forms with a single hidden error. The rejected form is the lesson.</p><p><b>Target</b>Fewer activation rejections.</p></div></details><details class="play"><summary><span class="pno">28</span><span class="psec">Government</span><h3>Increase first-time tax filing completion by turning the form into a guided story</h3></summary><div class="pd"><p><b>How</b>Twelve questions with a visible refund counter that updates as you answer.</p><p><b>Target</b>Higher completion rate for first-time filers.</p></div></details><details class="play"><summary><span class="pno">29</span><span class="psec">Hospital discharge</span><h3>Reduce readmissions by having patients explain their instructions back</h3></summary><div class="pd"><p><b>How</b>Patients explain their discharge card to a family member while the nurse listens. The card goes home.</p><p><b>Target</b>Fewer 30-day readmissions on the pilot ward.</p></div></details><details class="play"><summary><span class="pno">30</span><span class="psec">Microfinance</span><h3>Keep savings groups consistent with a shared board everyone can read</h3></summary><div class="pd"><p><b>How</b>Savings recorded as pieces on a board the whole group can see.</p><p><b>Target</b>Consistent monthly savings over six months.</p></div></details><details class="play"><summary><span class="pno">31</span><span class="psec">Gyms</span><h3>Improve member retention by making week two easier than week one</h3></summary><div class="pd"><p><b>How</b>A deliberate lighter week two, explained to the member on day one.</p><p><b>Target</b>Better 90-day retention than the current programme.</p></div></details><details class="play"><summary><span class="pno">32</span><span class="psec">Online courses</span><h3>Increase completion by ending with a built project instead of a certificate</h3></summary><div class="pd"><p><b>How</b>The course ends with something the learner has made. That is the credential.</p><p><b>Target</b>Higher completion than the current course.</p></div></details></div>
+  </div>
+</section>
+
+
+<section id="cases" class="">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">02</span><h2>Five complete case files</h2><p class="sub">Concept studies written in 2026. No client, no results claimed. Every number is a target. Each plan opens on a summary; the design and the research behind it are in the other two tabs.</p></div>
+    
+    <div class="all-depth">Show all plans as
+      <button data-all-depth="shu">Summary</button>
+      <button data-all-depth="ha">Design</button>
+      <button data-all-depth="ri">Research</button>
+    </div>
+    <!-- CASE 1 -->
+    <article class="case" id="case-1" data-depth="shu" data-spine="一|Threshold">
+      <header class="case-head">
+        <div class="case-no">01</div>
+        <div>
+          <p class="case-sector">Hospitals</p>
+          <h3>Hand hygiene in hospital wards</h3>
+          <p class="case-sub">Improve compliance without a training module.</p>
+        </div>
+        <div class="depth" role="tablist" aria-label="Detail level">
+          <button role="tab" aria-selected="true" data-depth="shu">Summary</button>
+          <button role="tab" aria-selected="false" data-depth="ha">Design</button>
+          <button role="tab" aria-selected="false" data-depth="ri">Research</button>
+        </div>
+      </header>
+      <div class="case-body">
+        <div>
+          <div class="pane" data-depth="shu">
+            <dl class="act"><dt>Problem</dt><dd>Hand-hygiene compliance sits below target and annual training does not hold it.</dd><dt>Approach</dt><dd>Pause the training module on one ward. Install a pressure tile at the door that lights a path to the sanitiser dispenser. No classroom time.</dd><dt>Requirements</dt><dd>8 weeks, one ward plus a control ward, tile and dispenser retrofit, one observer.</dd><dt>Target</dt><dd>Entry hand rub from the audited baseline to 75 percent by week 8 (target). Infection rate read at six months.</dd><dt>Needed from you</dt><dd>Four quarters of audit data, one infection-control contact, permission to pause the module on one ward.</dd></dl>
+          </div>
+          <div class="pane" data-depth="ha">
+            <h4>Mechanic</h4>
+            <p>Step on the tile, the path lights up, use the dispenser, the light goes off. Twelve correct entries in a row raise a paper flag at the nurse station. A missed entry does nothing; there is no penalty.</p>
+            <h4>Learning objective (target)</h4>
+            <p>By week 8 of the pilot, ward staff perform hand rub at ward entry on at least 75 percent of covertly observed entries, up from the ward's audited baseline, with no verbal prompting.</p>
+            <h4>Evaluation, Kirkpatrick levels</h4>
+            <ul>
+              <li><b>1 Reaction.</b> Two-question card at shift end, dropped in a box.</li>
+              <li><b>2 Learning.</b> Cue-recognition test (photo of a doorway: where is the moment?), not a knowledge quiz.</li>
+              <li><b>3 Behaviour.</b> Covert observation and dispenser consumption per patient-day, before and after, against a control ward.</li>
+              <li><b>4 Results.</b> Healthcare-associated infection rate over six months, owned by infection control.</li>
+            </ul>
+            <h4>Ethics</h4>
+            <p>No individual tracking. No sound loud enough to shame. Patient rooms stay out of scope.</p>
+          </div>
+          <div class="pane" data-depth="ri">
+            <ul>
+              <li><b>Fogg, Behaviour Model.</b> Put the prompt where ability is highest: hand free, body already moving through a door.</li>
+              <li><b>Gollwitzer, implementation intentions.</b> "When I cross the tile, I rub" binds cue to act without a decision.</li>
+              <li><b>Van Gennep, Turner. Rites of passage, liminality.</b> Thresholds already carry ritual weight in every culture (the genkan). The design borrows it.</li>
+              <li><b>Graybiel, basal ganglia and habit chunking.</b> Fixed cue, fixed routine, immediate sensory reward. Nothing variable.</li>
+              <li><b>Schultz, reward prediction error.</b> For hygiene you want reliability, so feedback is constant and immediate. Variable reward belongs in slot machines, not wards.</li>
+              <li><b>Deci and Ryan, self-determination theory.</b> A team flag protects autonomy and relatedness. Surveillance destroys both.</li>
+            </ul>
+          </div>
+        </div>
+        <figure class="toy" id="toy-threshold">
+          <div class="ctl" role="group" aria-label="Choose the intervention">
+            <button aria-pressed="true" data-mode="poster">Poster on the wall</button>
+            <button aria-pressed="false" data-mode="tile">Floor tile</button>
+            <button class="primary" id="walk">Walk a nurse through</button>
+          </div>
+          <svg viewBox="0 0 360 200" role="img" aria-label="A corridor with a ward door, a wall poster, a dispenser and a floor tile. A dot walks through.">
+            <rect x="0" y="0" width="360" height="200" fill="#0F1115"/>
+            <rect x="0" y="110" width="360" height="90" fill="#161A21"/>
+            <rect x="70" y="20" width="6" height="90" fill="#ECE9E2"/>
+            <rect x="70" y="20" width="60" height="6" fill="#ECE9E2"/>
+            <rect x="124" y="20" width="6" height="90" fill="#ECE9E2"/>
+            <rect id="poster" x="170" y="40" width="40" height="30" fill="none" stroke="#ECE9E2" stroke-width="2"/>
+            <text id="poster-t" x="190" y="60" font-size="9" text-anchor="middle" fill="#ECE9E2" font-family="sans-serif">WASH</text>
+            <rect id="disp" x="232" y="70" width="14" height="26" fill="#ECE9E2"/>
+            <circle id="disp-ring" cx="239" cy="83" r="16" fill="none" stroke="#efeee9" stroke-width="3" opacity="0"/>
+            <rect id="tile" x="92" y="140" width="46" height="36" fill="#0F1115" stroke="#2E3440" stroke-width="2"/>
+            <path id="track" d="M138 158 L239 158 L239 100" fill="none" stroke="#efeee9" stroke-width="4" stroke-dasharray="6 6" opacity="0"/>
+            <circle id="nurse" cx="14" cy="158" r="9" fill="#ECE9E2"/>
+          </svg>
+          <p class="out" id="thr-out">Choose an option, then press "Walk a nurse through".</p>
+          <figcaption>Demonstration only, not data. The pilot measures real behaviour on one ward against a control ward.</figcaption>
+        </figure>
+        <footer class="case-foot">
+          <p class="status">Concept study, 2026. Targets only, no results.</p>
+          <a class="doc" href="docs/01-threshold.pdf">Full plan, PDF</a>
+        </footer>
+      </div>
+    </article>
+
+    <!-- CASE 2 -->
+    <article class="case" id="case-2" data-depth="shu" data-spine="二|Kata">
+      <header class="case-head">
+        <div class="case-no">02</div>
+        <div>
+          <p class="case-sector">Warehouses and logistics</p>
+          <h3>Warehouse onboarding</h3>
+          <p class="case-sub">Replace the 2-hour induction with 12 short exercises on the floor.</p>
+        </div>
+        <div class="depth" role="tablist" aria-label="Detail level">
+          <button role="tab" aria-selected="true" data-depth="shu">Summary</button>
+          <button role="tab" aria-selected="false" data-depth="ha">Design</button>
+          <button role="tab" aria-selected="false" data-depth="ri">Research</button>
+        </div>
+      </header>
+      <div class="case-body">
+        <div>
+          <div class="pane" data-depth="shu">
+            <dl class="act"><dt>Problem</dt><dd>A two-hour slide induction; errors and near-misses cluster in week one.</dd><dt>Approach</dt><dd>Cut the induction to 20 minutes. New pickers do 12 exercises, each under 7 minutes, on live shelves with a buddy who signs them off.</dd><dt>Requirements</dt><dd>One cohort of 10 to 20, two rostered buddies, a card deck, coloured tape.</dd><dt>Target</dt><dd>Day-7 pick accuracy to the 90-day average; week-one near-misses to the site median by day 30 (targets).</dd><dt>Needed from you</dt><dd>WMS access for four metrics, two buddies on the roster, the safety session kept to 20 minutes.</dd></dl>
+          </div>
+          <div class="pane" data-depth="ha">
+            <h4>Mechanic</h4>
+            <p>A deck of 12 cards, one skill per card: scan, reach, lift, confirm, pack, handle exceptions. Three stages per card: do it with the buddy watching, do it alone, then teach it to the next new hire.</p>
+            <h4>Learning objectives (targets)</h4>
+            <p>By day 7, new pickers complete a 40-line order unassisted with pick accuracy at or above the site's 90-day-tenure average. By day 30, near-miss reports per 1,000 picks for new starters match the site median.</p>
+            <h4>Evaluation, Kirkpatrick levels</h4>
+            <ul>
+              <li><b>1 Reaction.</b> One tick box on each card: useful, or not.</li>
+              <li><b>2 Learning.</b> Exercise pass rates, first attempt against retry, from the cards.</li>
+              <li><b>3 Behaviour.</b> Pick accuracy and near-miss rate at day 7 and day 30, pulled from the warehouse management system.</li>
+              <li><b>4 Results.</b> Time to full productivity and week-one incident rate, this cohort against the last two.</li>
+            </ul>
+            <h4>Ethics</h4>
+            <p>Exercise records belong to the picker. Supervisors see pass or fail, never the number of attempts.</p>
+          </div>
+          <div class="pane" data-depth="ri">
+            <ul>
+              <li><b>Ericsson, deliberate practice.</b> Short, targeted, immediate feedback. Nothing a slide can do.</li>
+              <li><b>Bjork, desirable difficulties.</b> Spacing and retrieval beat a massed two-hour session on retention.</li>
+              <li><b>Roediger and Karpicke, the testing effect.</b> Every kata is a retrieval, not a review.</li>
+              <li><b>Sweller, cognitive load.</b> One micro-skill per card keeps intrinsic load inside working memory.</li>
+              <li><b>Csikszentmihalyi, flow.</b> Tape colours tune challenge to skill as the week goes on.</li>
+              <li><b>Lave and Wenger, legitimate peripheral participation.</b> Teaching the next hire makes the learner a member of the team, not a trainee.</li>
+              <li><b>Shu-Ha-Ri.</b> A Japanese three-stage training progression: learn, adapt, master.</li>
+            </ul>
+          </div>
+        </div>
+        <figure class="toy" id="toy-kata">
+          <div class="row" style="margin-bottom:10px"><span>Practice sessions in the first 30 days</span><span class="num" id="kata-n">0</span></div>
+          <input type="range" id="kata-range" min="0" max="4" value="0" aria-label="Number of spaced kata repetitions">
+          <svg viewBox="0 0 360 180" role="img" aria-label="A retention curve over 30 days. Each spaced repetition lifts and flattens the curve.">
+            <line x1="30" y1="150" x2="340" y2="150" stroke="#2E3440" stroke-width="2"/>
+            <line x1="30" y1="20" x2="30" y2="150" stroke="#2E3440" stroke-width="2"/>
+            <text x="30" y="168" font-size="10" fill="#9DA3AE" font-family="sans-serif">day 0</text>
+            <text x="322" y="168" font-size="10" fill="#9DA3AE" font-family="sans-serif">day 30</text>
+            <text x="6" y="24" font-size="10" fill="#9DA3AE" font-family="sans-serif">100</text>
+            <text x="14" y="153" font-size="10" fill="#9DA3AE" font-family="sans-serif">0</text>
+            <polyline id="kata-base" points="" fill="none" stroke="#2E3440" stroke-width="2"/>
+            <polyline id="kata-curve" points="" fill="none" stroke="#ECE9E2" stroke-width="3"/>
+            <g id="kata-marks"></g>
+          </svg>
+          <p class="out" id="kata-out"></p>
+          <figcaption>Illustration of the well-known forgetting curve and the effect of spaced practice. Not a measurement.</figcaption>
+        </figure>
+        <footer class="case-foot">
+          <p class="status">Concept study, 2026. Based on buddy onboarding run for junior designers at three studios.</p>
+          <a class="doc" href="docs/02-kata.pdf">Full plan, PDF</a>
+        </footer>
+      </div>
+    </article>
+
+    <!-- CASE 3 -->
+    <article class="case" id="case-3" data-depth="shu" data-spine="三|Roti">
+      <header class="case-head">
+        <div class="case-no">03</div>
+        <div>
+          <p class="case-sector">Schools, Grade 5, India</p>
+          <h3>Fractions for Grade 5</h3>
+          <p class="case-sub">Teach fractions with a sharing game before introducing numbers.</p>
+        </div>
+        <div class="depth" role="tablist" aria-label="Detail level">
+          <button role="tab" aria-selected="true" data-depth="shu">Summary</button>
+          <button role="tab" aria-selected="false" data-depth="ha">Design</button>
+          <button role="tab" aria-selected="false" data-depth="ri">Research</button>
+        </div>
+      </header>
+      <div class="case-body">
+        <div>
+          <div class="pane" data-depth="shu">
+            <dl class="act"><dt>Problem</dt><dd>Grade 5 fraction misconceptions survive years of worksheets.</dd><dt>Approach</dt><dd>Four sessions of a table game using paper rotis. Written fractions are introduced in session three, after students have compared pieces by hand.</dd><dt>Requirements</dt><dd>Four periods, two classes, a control class, paper and scissors, 30 minutes with each teacher.</dd><dt>Target</dt><dd>80 percent order unit fractions and name an equivalent pair, two weeks after (target).</dd><dt>Needed from you</dt><dd>Two classes, one control class, the ten-item diagnostic run before and after.</dd></dl>
+          </div>
+          <div class="pane" data-depth="ha">
+            <h4>Mechanic</h4>
+            <p>Four players, one paper roti per round, a card says how many people are sharing. Fold, cut, compare. The game moves on only when the table agrees who got more. Equivalent fractions appear naturally when two players cut differently and get the same amount.</p>
+            <h4>Learning objective (target)</h4>
+            <p>After four sessions, at least 80 percent of students correctly order unit fractions with denominators 2 to 8 and name one equivalent pair, on a diagnostic that uses no roti imagery.</p>
+            <h4>Evaluation, Kirkpatrick levels</h4>
+            <ul>
+              <li><b>1 Reaction.</b> One drawing per child after each session.</li>
+              <li><b>2 Learning.</b> Pre and post diagnostic, same items, four weeks apart.</li>
+              <li><b>3 Behaviour.</b> Transfer to number-line tasks the class has never seen.</li>
+              <li><b>4 Results.</b> Teacher interview: what changed in ordinary lessons.</li>
+            </ul>
+            <h4>Ethics</h4>
+            <p>No screens. Rotis respect what the class already eats; swap in the local flatbread elsewhere.</p>
+          </div>
+          <div class="pane" data-depth="ri">
+            <ul>
+              <li><b>Bruner, enactive to iconic to symbolic.</b> Cut, then draw, then write. In that order and no faster.</li>
+              <li><b>Papert, constructionism.</b> Knowledge built through a thing the child made.</li>
+              <li><b>Montessori, manipulatives.</b> The object carries the concept until the symbol can.</li>
+              <li><b>Vygotsky, zone of proximal development.</b> The argument at the table is the scaffold; the teacher only referees.</li>
+              <li><b>Lakoff and Núñez, embodied mathematics.</b> Fractions as portions of a whole body knows, before symbols.</li>
+              <li><b>Huizinga, Homo Ludens.</b> The rule (fair share) precedes the concept. Play comes before culture.</li>
+            </ul>
+          </div>
+        </div>
+        <figure class="toy" id="toy-roti">
+          <div class="row" style="justify-content:space-between;margin-bottom:8px">
+            <span>Roti A, shared by</span>
+            <span><button class="step" data-roti="a" data-d="-1" aria-label="Fewer people for roti A">−</button> <span class="num" id="roti-a-n">3</span> <button class="step" data-roti="a" data-d="1" aria-label="More people for roti A">+</button></span>
+          </div>
+          <div class="row" style="justify-content:space-between;margin-bottom:12px">
+            <span>Roti B, shared by</span>
+            <span><button class="step" data-roti="b" data-d="-1" aria-label="Fewer people for roti B">−</button> <span class="num" id="roti-b-n">4</span> <button class="step" data-roti="b" data-d="1" aria-label="More people for roti B">+</button></span>
+          </div>
+          <svg viewBox="0 0 360 150" role="img" aria-label="Two rotis cut into pieces. One piece of each is highlighted for comparison.">
+            <g id="roti-a" transform="translate(90,75)"></g>
+            <g id="roti-b" transform="translate(270,75)"></g>
+          </svg>
+          <p class="out" id="roti-out"></p>
+          <figcaption>Change the numbers. In class this is done with paper and scissors.</figcaption>
+        </figure>
+        <footer class="case-foot">
+          <p class="status">Concept study, 2026. Targets only, no results.</p>
+          <a class="doc" href="docs/03-roti.pdf">Full plan, PDF</a>
+        </footer>
+      </div>
+    </article>
+
+    <!-- CASE 4 -->
+    <article class="case" id="case-4" data-depth="shu" data-spine="四|Rep">
+      <header class="case-head">
+        <div class="case-no">04</div>
+        <div>
+          <p class="case-sector">Physiotherapy clinics</p>
+          <h3>Physiotherapy adherence</h3>
+          <p class="case-sub">A physical bead counter instead of an app with streaks.</p>
+        </div>
+        <div class="depth" role="tablist" aria-label="Detail level">
+          <button role="tab" aria-selected="true" data-depth="shu">Summary</button>
+          <button role="tab" aria-selected="false" data-depth="ha">Design</button>
+          <button role="tab" aria-selected="false" data-depth="ri">Research</button>
+        </div>
+      </header>
+      <div class="case-body">
+        <div>
+          <div class="pane" data-depth="shu">
+            <dl class="act"><dt>Problem</dt><dd>Fewer than half of patients finish home physio. Apps add streaks, streaks add shame.</dd><dt>Approach</dt><dd>A loop of 10 beads and a paper tally sheet. No app. The physiotherapist checks both at each visit.</dd><dt>Requirements</dt><dd>One clinic, two physiotherapists, 25 loops, six weeks.</dd><dt>Target</dt><dd>70 percent of prescribed sessions completed against usual care (target). Function score at six weeks.</dd><dt>Needed from you</dt><dd>Two physios, the current adherence sheet, service-evaluation sign-off.</dd></dl>
+          </div>
+          <div class="pane" data-depth="ha">
+            <h4>Mechanic</h4>
+            <p>The physiotherapist sets the number of sets in clinic. One rep, one bead; the set is done when the marker returns to the knot. A paper tally sheet gets one tick per session. Optional second loop for a family member who exercises alongside.</p>
+            <h4>Learning objective (target)</h4>
+            <p>Over six weeks, patients using the bead counter report completing at least 70 percent of prescribed sessions, against usual care, with no worsening in pain scores.</p>
+            <h4>Evaluation, Kirkpatrick levels</h4>
+            <ul>
+              <li><b>1 Reaction.</b> One question at each visit: did the loop get in the way?</li>
+              <li><b>2 Learning.</b> Patient demonstrates the set unprompted at visit two.</li>
+              <li><b>3 Behaviour.</b> Scroll ticks and bead state, corroborated at visits.</li>
+              <li><b>4 Results.</b> Patient-Specific Functional Scale at six weeks, against usual care.</li>
+            </ul>
+            <h4>Ethics</h4>
+            <p>No data leaves the room by default. The object is not connected. A missed day changes nothing about the object; pain is respected.</p>
+          </div>
+          <div class="pane" data-depth="ri">
+            <ul>
+              <li><b>Deci and Ryan, self-determination theory.</b> Autonomy (patient sets the pace), competence (the marker comes home), relatedness (the physio reads the beads; the family loop).</li>
+              <li><b>Vlaeyen and Linton, fear-avoidance model.</b> Graded exposure, no punishment for a missed day, so avoidance never gets a reason.</li>
+              <li><b>Winnicott, transitional objects.</b> A thing that holds the relationship between visits.</li>
+              <li><b>Mala practice, Indian traditions.</b> Counting as a calming act, 108 beads. This counter uses ten.</li>
+              <li><b>Fogg, anchoring.</b> The loop lives where the exercise happens, so the cue is the place.</li>
+              <li><b>Schultz, reward prediction error.</b> Small, predictable completion beats a surprise badge for someone managing pain.</li>
+            </ul>
+          </div>
+        </div>
+        <figure class="toy" id="toy-rep">
+          <div class="ctl"><button class="primary" id="rep-btn">Do a rep</button><button id="rep-reset">Reset the loop</button></div>
+          <svg viewBox="0 0 360 150" role="img" aria-label="A loop of ten beads with a marker that moves one bead per rep.">
+            <path d="M40 75 C40 30 320 30 320 75 C320 120 40 120 40 75 Z" fill="none" stroke="#ECE9E2" stroke-width="2"/>
+            <g id="beads"></g>
+            <rect x="172" y="120" width="16" height="16" fill="#ECE9E2" transform="rotate(45 180 128)"/>
+          </svg>
+          <p class="out" id="rep-out">Ten beads. Move one per rep.</p>
+          <figcaption>In the real design this is a physical object.</figcaption>
+        </figure>
+        <footer class="case-foot">
+          <p class="status">Concept study, 2026. Closest to current work on therapeutic game design.</p>
+          <a class="doc" href="docs/04-rep.pdf">Full plan, PDF</a>
+        </footer>
+      </div>
+    </article>
+
+    <!-- CASE 5 -->
+    <article class="case" id="case-5" data-depth="shu" data-spine="五|Salary Day">
+      <header class="case-head">
+        <div class="case-no">05</div>
+        <div>
+          <p class="case-sector">Banking apps</p>
+          <h3>First-salary savings simulation</h3>
+          <p class="case-sub">Get first-time earners to set up automatic savings.</p>
+        </div>
+        <div class="depth" role="tablist" aria-label="Detail level">
+          <button role="tab" aria-selected="true" data-depth="shu">Summary</button>
+          <button role="tab" aria-selected="false" data-depth="ha">Design</button>
+          <button role="tab" aria-selected="false" data-depth="ri">Research</button>
+        </div>
+      </header>
+      <div class="case-body">
+        <div>
+          <div class="pane" data-depth="shu">
+            <dl class="act"><dt>Problem</dt><dd>First-jobbers read about compounding and change nothing in the bank.</dd><dt>Approach</dt><dd>A 6-minute choice-based simulation inside the app onboarding. At the end, users see the outcome of the choices they did not make, and one button to set up an automatic transfer.</dd><dt>Requirements</dt><dd>Five weeks to a live A/B, 2,000 users per arm.</dd><dt>Target</dt><dd>25 percent set up a payday auto-transfer within 90 days, against the article cohort (target).</dd><dt>Needed from you</dt><dd>Funnel access, the verified transfer event, a no-placement line in the contract.</dd></dl>
+          </div>
+          <div class="pane" data-depth="ha">
+            <h4>Mechanic</h4>
+            <p>Twelve turns: rent, a family transfer, a trip with friends, a phone EMI, an emergency. Choices are never labelled good or bad. At month 36 the user sees their balance next to the two paths they did not take. One button sets up a payday auto-transfer.</p>
+            <h4>Learning objective (target)</h4>
+            <p>Within 90 days, at least 25 percent of players who reach the reveal have set up an automatic payday transfer, verified by the partner, against a control group who read the same content as an article.</p>
+            <h4>Evaluation, Kirkpatrick levels</h4>
+            <ul>
+              <li><b>1 Reaction.</b> One tap at the reveal.</li>
+              <li><b>2 Learning.</b> Two-question mental-model check: does starting earlier or investing more matter more?</li>
+              <li><b>3 Behaviour.</b> The 90-day auto-transfer rate.</li>
+              <li><b>4 Results.</b> Partner's 12-month balance retention for the cohort.</li>
+            </ul>
+            <h4>Ethics</h4>
+            <p>No product placement inside the turns. The auto-transfer button names the partner. Scenarios reflect Indian first-job reality, including family transfers, without judging them.</p>
+          </div>
+          <div class="pane" data-depth="ri">
+            <ul>
+              <li><b>Kahneman and Tversky, prospect theory.</b> The reveal frames the counterfactual as a loss, which the mind weighs about twice as heavily.</li>
+              <li><b>Laibson, present bias.</b> Turns compress time so the future stops being discounted.</li>
+              <li><b>Thaler, mental accounting.</b> The auto-transfer creates the account before the temptation does.</li>
+              <li><b>Kolb, experiential learning.</b> Concrete experience before abstract concept, every time.</li>
+              <li><b>Bateson, the play frame.</b> The game frame makes regret safe enough to learn from.</li>
+              <li><b>Sociology of remittance, Indian family norms.</b> The family transfer is a choice with dignity inside the game, not a mistake to be corrected.</li>
+            </ul>
+          </div>
+        </div>
+        <figure class="toy" id="toy-salary">
+          <p style="font-size:15px;margin-bottom:10px">₹5,000 a month is left over every payday. For 36 months you:</p>
+          <div class="ctl" role="group" aria-label="Choose what happens to the money">
+            <button data-pick="spend">Spend it</button>
+            <button data-pick="keep">Keep it in the account</button>
+            <button data-pick="sip">Auto-invest on payday</button>
+          </div>
+          <div class="bars" id="sal-bars" hidden>
+            <div class="bar" data-k="spend"><span>Spend it</span><i></i><b id="v-spend"></b></div>
+            <div class="bar" data-k="keep"><span>Keep it</span><i></i><b id="v-keep"></b></div>
+            <div class="bar" data-k="sip"><span>Auto-invest</span><i></i><b id="v-sip"></b></div>
+          </div>
+          <p class="out" id="sal-out">Pick one to see all three outcomes.</p>
+          <figcaption>Simple arithmetic, not a forecast: assumes 12 percent a year, no tax, no inflation.</figcaption>
+        </figure>
+        <footer class="case-foot">
+          <p class="status">Concept study, 2026. Choice-based stories are the format shipped most often.</p>
+          <a class="doc" href="docs/05-salary-day.pdf">Full plan, PDF</a>
+        </footer>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="roles" style="padding-bottom:0">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">03</span><h2>Available as</h2><p class="sub">Four roles, one person. For each: the record, what the role covers, a working demo and an example document. The role is a starting point, not a box.</p></div>
+  </div>
+</section>
+
+<section id="pm" class="role">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">03.1</span><h2>Product and project manager</h2></div>
+    <p class="sub">Google-certified in project management. Co-founded three studios. Designed two gamified apps and shipped 12+ games.</p>
+    <div class="role-grid">
+      <div>
+        <h4>Experience</h4>
+        <ul class="rl">
+          <li><b>Dinelift.</b> Validated a gamified outdoor-dining product with 50-plus daily sales calls into hospitality before writing a line of code. Recruited and onboarded the mobile team.</li>
+          <li><b>Papertoy Studio.</b> Ran client relationships across 150-plus executives in construction, interiors and defence while producing 3D visualisation, an AR sign-language app and a gamified fitness app.</li>
+          <li><b>Nerdy Quest.</b> Twelve-plus Android games across five genres, concept to store, and design consultancy for Fanclash Game Studios.</li>
+        </ul>
+        <h4>Covers</h4>
+        <ul class="rl">
+          <li>Objective and success metric written before the backlog exists.</li>
+          <li>Scope, out-of-scope list and kill decisions, in writing.</li>
+          <li>Delivery across art, engineering, creative and live-ops teams.</li>
+          <li>Clients, vendors and partners, from first call to handover.</li>
+          <li>Weekly written updates instead of status meetings.</li>
+        </ul>
+        <div class="role-foot"><a class="doc" href="docs/06-product-brief-salary-day.pdf">Example product brief, PDF</a></div>
+      </div>
+      <figure class="toy" id="toy-prio">
+        <p style="font-size:14px;margin-bottom:10px">Five candidate features for the savings simulation. Choose the release goal to see what gets cut.</p>
+        <div class="ctl" role="group" aria-label="Release goal">
+          <button aria-pressed="true" data-goal="transfer">Goal: auto-transfers in 90 days</button>
+          <button aria-pressed="false" data-goal="retention">Goal: day-7 retention</button>
+        </div>
+        <ul class="rank" id="prio-list"></ul>
+        <p class="out" id="prio-out"></p>
+        <figcaption>Scores are estimates for this concept.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+<section id="producer" class="role">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">03.2</span><h2>Game producer</h2></div>
+    <p class="sub">Leads a team of 50-plus designers, developers and artists at BooBoo Games. 30-plus games shipped: hybrid-puzzle at under $1.50 cost per install, idle arcade and tycoon, rewarded games for European clients, web games for six-plus clients including TikTok, and AI-based interactive narrative stories.</p>
+    <div class="role-grid">
+      <div>
+        <h4>Experience</h4>
+        <ul class="rl">
+          <li><b>Portfolio.</b> 30-plus games shipped: hybrid-puzzle, idle arcade, tycoon, rewarded, AI narrative and client titles.</li>
+          <li><b>Cost per install.</b> Under $1.50 on hybrid-puzzle titles through data-driven design and fast iteration.</li>
+          <li><b>Clients.</b> Rewarded games for European clients. Web games for six-plus clients, including TikTok.</li>
+          <li><b>Microdrama platform.</b> Workflow for 25-plus interactive stories streamlined; AI-based internal tools coordinated.</li>
+          <li><b>Merger.</b> Operations shifted and merged with Funcell Games: people, workflow, tools.</li>
+          <li><b>Creative pipeline.</b> Video creatives and playable ads, in coordination with the playable team.</li>
+          <li><b>People.</b> Junior designers mentored on production practice and cross-team work.</li>
+        </ul>
+        <h4>Covers</h4>
+        <ul class="rl">
+          <li>Portfolio from concept to prototype, soft launch and live-ops.</li>
+          <li>Client titles: rewarded games for European clients, web games for TikTok and others.</li>
+          <li>Studio integration: the Funcell Games merger, people to tools.</li>
+          <li>Creative pipeline: video and playable ads, with the playable team.</li>
+          <li>Numeric gates, kill decisions and post-mortems.</li>
+        </ul>
+        <div class="role-foot"><a class="doc" href="docs/07-production-playbook.pdf">Production playbook, PDF</a></div>
+      </div>
+      <figure class="toy" id="toy-gate">
+        <ul class="pipe" aria-label="Pipeline">
+          <li><b>Concept</b>one page</li><li><b>Prototype</b>two weeks</li><li class="gate"><b>Gate</b>creative test</li><li><b>Soft launch</b>one market</li><li class="gate"><b>Gate</b>scale or kill</li>
+        </ul>
+        <div class="row" style="justify-content:space-between"><span>Cost per install</span><span class="num" id="g-cpi">$2.50</span></div>
+        <input type="range" id="cpi" min="50" max="500" step="10" value="200" aria-label="Cost per install in cents">
+        <div class="row" style="justify-content:space-between;margin-top:8px"><span>Day-1 retention</span><span class="num" id="g-d1">35%</span></div>
+        <input type="range" id="d1" min="10" max="60" value="35" aria-label="Day-1 retention percent">
+        <p class="out" id="gate-out"></p>
+        <figcaption>My rules of thumb for a casual hybrid-puzzle soft launch. Thresholds vary by genre and market.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+<section id="systems" class="role">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">03.3</span><h2>System designer</h2></div>
+    <p class="sub">Every game, gamified product and learning programme is a system of loops: how value enters, how it leaves, what the user sees, and how it can fail. That is designed before any screen.</p>
+    <div class="role-grid">
+      <div>
+        <h4>Experience</h4>
+        <ul class="rl">
+          <li><b>Gamification systems</b> for customer acquisition and retention, as a consultant, and a gamified fitness app built on behavioural psychology at Papertoy.</li>
+          <li><b>Hybrid-puzzle economies</b> tuned against CPI and retention at BooBoo Games.</li>
+          <li><b>Therapeutic game frameworks</b>, current work: the same loop discipline pointed at MedTech workflows.</li>
+          <li><b>Learning systems</b> above: the ward flag, the exercise cards and the bead counter are all simple economies.</li>
+        </ul>
+        <h4>Covers</h4>
+        <ul class="rl">
+          <li>Economies: what is earned, what is spent, what the user sees, how it fails.</li>
+          <li>Engagement and retention systems for products outside games.</li>
+          <li>Learning systems: the five case files on this site.</li>
+          <li>Tuning rules and live-ops dials, documented so the team runs them.</li>
+          <li>Interactive narrative and microdrama systems, 25+ stories.</li>
+        </ul>
+        <div class="role-foot"><a class="doc" href="docs/08-system-design-notes.pdf">System design notes, PDF</a></div>
+      </div>
+      <figure class="toy" id="toy-econ">
+        <div class="row" style="justify-content:space-between"><span>Coins earned per day</span><span class="num" id="e-f">120</span></div>
+        <input type="range" id="faucet" min="20" max="240" step="10" value="120" aria-label="Coins earned per day">
+        <div class="row" style="justify-content:space-between;margin-top:8px"><span>Coins spent per day</span><span class="num" id="e-d">100</span></div>
+        <input type="range" id="drain" min="20" max="240" step="10" value="100" aria-label="Coins spent per day">
+        <svg viewBox="0 0 360 160" role="img" aria-label="Player balance over 30 days under the chosen faucet and drain.">
+          <line x1="30" y1="130" x2="340" y2="130" stroke="#2E3440" stroke-width="2"/>
+          <line x1="30" y1="15" x2="30" y2="130" stroke="#2E3440" stroke-width="2"/>
+          <line id="e-cap" x1="30" y1="30" x2="340" y2="30" stroke="#efeee9" stroke-width="1.5" stroke-dasharray="4 4"/>
+          <text x="30" y="148" font-size="10" fill="#9DA3AE" font-family="sans-serif">day 0</text>
+          <text x="322" y="148" font-size="10" fill="#9DA3AE" font-family="sans-serif">day 30</text>
+          <text x="36" y="26" font-size="10" fill="#9DA3AE" font-family="sans-serif">wallet cap</text>
+          <polyline id="e-line" points="" fill="none" stroke="#ECE9E2" stroke-width="3"/>
+        </svg>
+        <p class="out" id="econ-out"></p>
+        <figcaption>Simple one-currency model: starting balance 200, cap 1,000. Real games use several currencies.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+<section id="mentor" class="role">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">03.4</span><h2>Game design mentor</h2></div>
+    <p class="sub">Tutoring design students since 2021, mentoring junior designers at BooBoo Games, and a junior developer programme at Nerdy Quest.</p>
+    <div class="role-grid">
+      <div>
+        <h4>Experience</h4>
+        <ul class="rl">
+          <li><b>Students.</b> Design principles taught through psychology, neuroscience and play, one to one and in small groups, since November 2021.</li>
+          <li><b>Juniors at BooBoo Games.</b> Production practice and cross-team work, learned on live projects with a buddy structure.</li>
+          <li><b>Nerdy Quest.</b> A training programme for junior developers, built to run without its founder.</li>
+        </ul>
+        <h4>Covers</h4>
+        <ul class="rl">
+          <li>Design fundamentals taught through psychology and play.</li>
+          <li>Buddy structure and teach-back for every junior.</li>
+          <li>One-to-one and small-group tutoring; an eight-week course.</li>
+          <li>Junior developer programme built to run without its founder.</li>
+          <li>Feedback on paper prototypes, weekly.</li>
+        </ul>
+        <div class="role-foot">
+          <a class="doc" href="docs/09-mentoring-syllabus.pdf">Eight-week syllabus, PDF</a>
+          <a class="doc" href="https://karthikmbindumon.wixsite.com/designportfolio/book-online">Book a session</a>
+        </div>
+      </div>
+      <figure class="toy" id="toy-ask">
+        <p style="font-size:14px;margin-bottom:10px">The first lesson, question by question.</p>
+        <ul class="ask" id="ask-list">
+          <li>Design a game with one button. What does the button do?</li>
+          <li hidden>Now the button stops working for three seconds, mid-game. What does the player feel?</li>
+          <li hidden>Give the button a cost. What changes about when they press it?</li>
+          <li hidden>Say what your game is about. Not the mechanic. The feeling.</li>
+          <li hidden>Most students realise in the first lesson that the interesting part was the pause, not the button.</li>
+        </ul>
+        <div class="ctl"><button class="primary" id="ask-next">Ask the next question</button><button id="ask-reset">Start over</button></div>
+        <figcaption>Students usually reach the last point on their own.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+<section id="work" class="">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">04</span><h2>Evidence</h2><p class="sub">Demo reel, prototypes, artwork and notes.</p></div>
+    
+    <div class="reel" data-yt="Z5KlDz1ZCIU" role="button" tabindex="0" aria-label="Play the demo reel">
+      <img src="assets/services-synapse.jpg" alt="">
+      <span class="play">Play</span>
+      <span class="cap">Demo reel</span>
+    </div>
+    <div class="tiles">
+      <a class="tile rv lift" href="https://youtube.com/playlist?list=PLqclwE6nsbUiWlxZzg8OdPuaOT8MF9twp"><img src="assets/gallery-prototypes.png" alt=""><span class="n">i</span><span class="t">Game prototypes</span></a>
+      <a class="tile rv lift" href="https://karthikmbindumon.wixsite.com/designportfolio"><img src="assets/gallery-artwork.png" alt=""><span class="n">ii</span><span class="t">Artwork</span></a>
+      <a class="tile rv lift" href="https://karthikmbindumon.wixsite.com/designportfolio"><img src="assets/gallery-programming.png" alt=""><span class="n">iii</span><span class="t">Programming</span></a>
+      <a class="tile rv lift" href="https://karthikmbindumon.wixsite.com/designportfolio"><img src="assets/gallery-notes.png" alt=""><span class="n">iv</span><span class="t">Game design notes</span></a>
+      <a class="tile rv lift" href="https://karthikmbindumon.wixsite.com/designportfolio"><img src="assets/gallery-blog.png" alt=""><span class="n">v</span><span class="t">Epistemophilliac's blog</span></a>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section id="services" class="">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">06</span><h2>Services</h2><p class="sub">Available now: gamification consulting, game design and game design tutoring. Learning experience design is the fourth service.</p></div>
+    
+    <div class="services">
+      <article class="svc rv spot lift"><img src="assets/atom1.png" alt=""><div class="body"><h3>Game design</h3><p>Core gameplay, game economy and feel, from concept to soft launch.</p><a class="doc" href="https://karthikmbindumon.wixsite.com/designportfolio/book-online">Book</a></div></article>
+      <article class="svc rv spot lift"><img src="assets/atom2.png" alt=""><div class="body"><h3>Gamification consultation</h3><p>Engagement and retention systems based on motivation psychology.</p><a class="doc" href="https://karthikmbindumon.wixsite.com/designportfolio/book-online">Book</a></div></article>
+      <article class="svc rv spot lift"><img src="assets/atom3.png" alt=""><div class="body"><h3>Game design tutoring</h3><p>An eight-week course. Students build a paper prototype every week from week two.</p><a class="doc" href="https://karthikmbindumon.wixsite.com/designportfolio/service-page/game-design-tutoring">View course</a></div></article>
+      <article class="svc text rv spot lift"><div class="glyph">&amp;</div><div class="body"><h3>Learning experience design</h3><p>Training programmes that are shorter and change behaviour, with a measurable target agreed before building.</p><a class="doc" href="#cases">See example plans</a></div></article>
+    </div>
+  </div>
+</section>
+
+
+<section id="method" class="">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">07</span><h2>How an investigation runs</h2><p class="sub">Four principles, and the six-step process behind every case.</p></div>
+    
+    <div class="principles">
+      <div class="principle"><div class="jp">1</div><h3>Outcome first</h3><p>State the result before explaining the method.</p></div>
+      <div class="principle"><div class="jp">2</div><h3>Keep it simple</h3><p>Remove anything that does not help the user decide or act.</p></div>
+      <div class="principle"><div class="jp">3</div><h3>Respond, do not perform</h3><p>Nothing moves or changes unless the user does something.</p></div>
+      <div class="principle"><div class="jp">4</div><h3>Measure everything</h3><p>Every project has a target, a date and a comparison group.</p></div>
+    </div>
+    <div class="loop">
+      <div>
+        <h3>How learning is designed</h3>
+        <p class="sub" style="font-size:16px;margin-bottom:18px">Six steps. Every project plan on this page follows them. Click a step for the question it answers and the research behind it.</p>
+        <ul class="loop-ring" role="tablist" aria-label="Stages of the Realisation Loop">
+          <li><button role="tab" aria-selected="true" data-stage="0">1. First contact<small>before any explanation</small></button></li>
+          <li><button role="tab" aria-selected="false" data-stage="1">2. Safe failure<small>in the first minute</small></button></li>
+          <li><button role="tab" aria-selected="false" data-stage="2">3. Try something<small>hands on</small></button></li>
+          <li><button role="tab" aria-selected="false" data-stage="3">4. Repeat<small>short, quick rounds</small></button></li>
+          <li><button role="tab" aria-selected="false" data-stage="4">5. Understand<small>in their own words</small></button></li>
+          <li><button role="tab" aria-selected="false" data-stage="5">6. Use it at work<small>a real-world cue</small></button></li>
+        </ul>
+      </div>
+      <div class="loop-panel" id="loop-panel" role="tabpanel">
+        <h4 id="lp-title">1. First contact</h4>
+        <p class="q" id="lp-q">What does the learner see or touch first, before any explanation?</p>
+        <p class="t" id="lp-t">People engage faster when the first thing they meet is something to do, not something to read (Bateson on the play frame; Winnicott on safe objects). In the hand-hygiene plan, the first thing a nurse meets is a floor tile, not a poster.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="evaluation" class="">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">08</span><h2>How results are measured</h2><p class="sub">Every project starts with a written objective and a measurement plan.</p></div>
+    <div class="eval">
+      <div>
+        <h3>The objective</h3>
+        <p class="obj">By <u>day 7</u>, <u>new pickers</u> complete a 40-line order <u>unassisted</u> at or above <u>the site's 90-day average accuracy</u>.</p>
+        <p class="legend">Every objective names who, what they will do, under what conditions, and to what standard.</p>
+      </div>
+      <div>
+        <h3>The measurement plan</h3>
+        <table>
+          <tr><th>Reaction</th><td>One question, asked immediately.</td></tr>
+          <tr><th>Learning</th><td>A demonstration, not a quiz.</td></tr>
+          <tr><th>Behaviour</th><td>Real data from the business: audits, system logs, records.</td></tr>
+          <tr><th>Results</th><td>Business results, measured against a comparison group.</td></tr>
+        </table>
+      </div>
+    </div>
+    <div class="refuse">
+      <h3>Not built, on principle</h3>
+      <ul>
+        <li>Individual leaderboards in health or safety settings.</li>
+        <li>Streaks that punish a missed day.</li>
+        <li>Variable rewards on anything a person must do while hurt, tired or afraid.</li>
+        <li>Dark patterns. Anything designed to work on people without their knowledge.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section id="practice" class="">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">09</span><h2>Experience</h2><p class="sub">Work history, as on the résumé.</p></div>
+    <ul class="timeline">
+      <li><span class="when">April 2025 to now</span><div><h3>Game Producer, BooBoo Games</h3><p>Leads a 50-plus team of designers, developers and artists. 30-plus games shipped: hybrid-puzzle titles at a cost per install under $1.50, idle arcade and tycoon, rewarded games for European clients, web games for six-plus clients including TikTok, and AI-based interactive narrative stories. Interactive microdrama platform: workflow streamlined for 25-plus stories, AI-based internal tools coordinated. Operations shifted and merged with Funcell Games: people, workflow and tools. Video creative and playable-ad pipeline, with the playable team. Junior designers mentored.</p></div></li>
+      <li><span class="when">January 2022 to now</span><div><h3>Co-founder, Papertoy Studio</h3><p>Gamified holistic fitness app built on behavioural psychology. Photo-real gamified 3D visualisation for architecture and interior clients. A 3D stealth visualisation project with Indian Special Forces veterans (CLAW India). An AR sign-language app for hearing-impaired users. Client relationships across 150-plus executives in construction, interiors and defence.</p></div></li>
+      <li><span class="when">November 2022 to now</span><div><h3>Co-founder, Dinelift</h3><p>Gamified outdoor-dining app. Ran 50-plus daily sales calls into the hospitality sector for market validation. Recruited and onboarded the mobile engineering team.</p></div></li>
+      <li><span class="when">January 2022 to now</span><div><h3>Co-founder, Nerdy Quest</h3><p>Twelve-plus Android games across five genres, concept to launch. Design consultancy and project management for Fanclash Game Studios. A junior developer training programme. Partnerships across the Indian film production and distribution industry.</p></div></li>
+      <li><span class="when">November 2021 to now</span><div><h3>Design tutor and gamification consultant</h3><p>Teach design students the psychology and neuroscience under good play. Consult on gamification for acquisition and retention. Lead three-to-five-person prototype teams.</p></div></li>
+      <li><span class="when">2024 to 2025</span><div><h3>Content writer, Sportskeeda</h3><p>200-plus mobile gaming articles, 50,000-plus views, SEO-led.</p></div></li>
+      <li><span class="when">2019</span><div><h3>Game tester, Expleo Group</h3><p>iOS QA on visual novel and action RPG titles, around ten bug reports a day.</p></div></li>
+      <li><span class="when">Education</span><div><h3>Toronto Film School, Seamedu</h3><p>Diploma in Video Game Design and Animation (2021 to 2022). BFA in Game Design and Game Art (2018 to 2019). Certified: Google Project Management, Google Prompt Engineering, Gamification and Motivation Psychology.</p></div></li>
+    </ul>
+    <div class="links">
+      <a href="https://youtu.be/Z5KlDz1ZCIU">Demo reel</a>
+      <a href="https://youtube.com/playlist?list=PLqclwE6nsbUiWlxZzg8OdPuaOT8MF9twp">Prototype playlist</a>
+      <a href="docs/Karthik-Bindumon-Resume.pdf">Résumé, PDF</a>
+      <a href="docs/00-realisation-loop.pdf">How learning is designed, PDF</a>
+    </div>
+  </div>
+</section>
+
+
+<section id="theory" class="">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="idx">10</span><h2>Research sources</h2><p class="sub">26 sources, with the case each one informed.</p></div>
+    
+    <details class="bench-wrap"><summary>Show all sources</summary>
+    <ul class="bench">
+      <li><b>Huizinga, Homo Ludens (1938)</b><span>Play precedes culture; rules come before concepts.</span><em>Fractions</em></li>
+      <li><b>Caillois, Man, Play and Games (1958)</b><span>Agôn, alea, mimicry, ilinx; paidia to ludus. The taxonomy for what kind of play a problem wants.</span><em>All plans</em></li>
+      <li><b>Bateson, A Theory of Play and Fantasy (1955)</b><span>The play frame: "this is play" makes failure safe.</span><em>Savings simulation, process</em></li>
+      <li><b>Sutton-Smith, The Ambiguity of Play (1997)</b><span>Seven rhetorics of play; a warning against selling only "progress".</span><em>Design process</em></li>
+      <li><b>Winnicott, Playing and Reality (1971)</b><span>Transitional objects, potential space.</span><em>Physiotherapy, process</em></li>
+      <li><b>Vygotsky</b><span>Zone of proximal development; play as leading activity.</span><em>Fractions, warehouse</em></li>
+      <li><b>Bruner</b><span>Enactive, iconic, symbolic. The sequence for any concept.</span><em>Fractions</em></li>
+      <li><b>Papert, Mindstorms (1980)</b><span>Constructionism; learners build to know.</span><em>Fractions</em></li>
+      <li><b>Csikszentmihalyi, Flow (1990)</b><span>The challenge-skill channel.</span><em>Warehouse</em></li>
+      <li><b>Deci and Ryan, self-determination theory</b><span>Autonomy, competence, relatedness. The first filter on any reward.</span><em>Hand hygiene, physiotherapy</em></li>
+      <li><b>Bjork, desirable difficulties</b><span>Spacing, interleaving, retrieval.</span><em>Warehouse</em></li>
+      <li><b>Roediger and Karpicke, the testing effect</b><span>Retrieval beats re-reading.</span><em>Warehouse</em></li>
+      <li><b>Sweller, cognitive load theory</b><span>Keep intrinsic load in range; kill extraneous load.</span><em>Warehouse</em></li>
+      <li><b>Ericsson, deliberate practice</b><span>Targeted, effortful, with feedback.</span><em>Warehouse</em></li>
+      <li><b>Lave and Wenger, Situated Learning (1991)</b><span>Legitimate peripheral participation.</span><em>Warehouse</em></li>
+      <li><b>Kahneman and Tversky, prospect theory</b><span>Loss aversion, framing.</span><em>Savings simulation</em></li>
+      <li><b>Thaler and Sunstein, Nudge (2008)</b><span>Defaults, mental accounting.</span><em>Savings simulation</em></li>
+      <li><b>Fogg, Behaviour Model</b><span>Motivation, ability, prompt at the same moment.</span><em>Hand hygiene, physiotherapy</em></li>
+      <li><b>Gollwitzer, implementation intentions</b><span>If-then plans bind cue to action.</span><em>Hand hygiene, process</em></li>
+      <li><b>Schultz, reward prediction error</b><span>When variable reward helps and when it harms.</span><em>Hand hygiene, physiotherapy</em></li>
+      <li><b>Graybiel, habit and the basal ganglia</b><span>Chunking of routines under a stable cue.</span><em>Hand hygiene</em></li>
+      <li><b>Van Gennep, Turner</b><span>Rites of passage, liminality, thresholds.</span><em>Hand hygiene</em></li>
+      <li><b>Vlaeyen and Linton, fear-avoidance model</b><span>Why punishment in rehab backfires.</span><em>Physiotherapy</em></li>
+      <li><b>Gee, What Video Games Have to Teach Us (2003)</b><span>Games as well-designed learning systems.</span><em>Design process</em></li>
+      <li><b>Koster, A Theory of Fun (2004)</b><span>Fun is pattern-learning; boredom is a finished pattern.</span><em>Design process</em></li>
+      <li><b>Kirkpatrick; Mager</b><span>Four levels; behavioural objectives. How objectives are written and measured.</span><em>Measurement</em></li>
+    </ul>
+    </details>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p>Any of these cases can run as a pilot in your business in four to eight weeks. Investor and partner conversations on the approach are open. Mumbai or remote.</p>
+    <div class="links">
+      <a href="mailto:karthik.mbindumon@gmail.com">karthik.mbindumon@gmail.com</a>
+      <a href="https://www.linkedin.com/in/karthikbindumon11">LinkedIn</a>
+      <a href="https://karthikmbindumon.wixsite.com/designportfolio/book-online">Book a session</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap"><span>Karthik Bindumon, 2026.</span><span>Built by hand, no framework.</span></div></footer>
+
+<script>
+(function(){
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var $ = function(s,c){return (c||document).querySelector(s)};
+  var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+  var mod=function(f){ try{ f(); }catch(e){ if(window.console) console.error(e); } };
+
+  /* fold card */
+
+
+  /* depth per case + global */
+  function setDepth(c,d){ c.dataset.depth=d; $$('.depth button',c).forEach(function(b){ b.setAttribute('aria-selected', b.dataset.depth===d); }); }
+  $$('.case').forEach(function(c){ $$('.depth button',c).forEach(function(b){ b.addEventListener('click',function(){ setDepth(c,b.dataset.depth); }); }); });
+  $$('[data-all-depth]').forEach(function(b){ b.addEventListener('click',function(){ $$('.case').forEach(function(c){ setDepth(c,b.dataset.allDepth); }); }); });
+
+  /* spine + nav current */
+
+  var navLinks=$$('.nav a');
+  var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ var sec=e.target; navLinks.forEach(function(a){ a.setAttribute('aria-current', a.getAttribute('href')==='#'+sec.id ? 'true':'false'); }); } }); },{rootMargin:'-40% 0px -50% 0px'});
+  $$('main > section[id]').forEach(function(el){ io.observe(el); });
+
+  /* loop */
+  var stages=[
+    ['1. First contact','What does the learner see or touch first, before any explanation?','People engage faster when the first thing they meet is something to do, not something to read (Bateson on the play frame; Winnicott on safe objects). In the hand-hygiene plan, the first thing a nurse meets is a floor tile, not a poster.'],
+    ['2. Safe failure','What small mistake can they make in the first minute without any cost?','A small amount of difficulty improves memory (Bjork). The difficulty has to be just above the learner\'s current level (Vygotsky). In the fractions game, the first cut is always unfair and the other players say so.'],
+    ['3. Try something','What will they try, and does the design let them try it?','People learn by doing before they learn by reading (Papert, Bruner). Games work because every move is a guess the player tests (Gee). In the savings simulation, every turn is a choice, not a quiz question.'],
+    ['4. Repeat','How many short rounds before the pattern becomes obvious?','Rounds must be short and slightly harder each time to hold attention (Csikszentmihalyi). Feedback should be immediate and predictable in work settings (Schultz). In the warehouse plan, twelve exercises in a week, each under seven minutes.'],
+    ['5. Understand','What is the one sentence they say to themselves at the end?','People remember conclusions they reached themselves far better than ones they were told (Köhler, Duncker; Slamecka and Graf). In the savings simulation, the sentence is "the difference was month one".'],
+    ['6. Use it at work','What reminder in their normal day brings the lesson back?','A specific cue tied to the action makes the behaviour happen (Gollwitzer). Repetition over time keeps it (Ebbinghaus). In the physiotherapy plan, the cue is the bead counter kept where the exercise is done.']
+  ];
+  $$('.loop-ring button').forEach(function(b){ b.addEventListener('click',function(){ $$('.loop-ring button').forEach(function(x){x.setAttribute('aria-selected','false')}); b.setAttribute('aria-selected','true'); var s=stages[+b.dataset.stage]; $('#lp-title').textContent=s[0]; $('#lp-q').textContent=s[1]; $('#lp-t').textContent=s[2]; }); });
+
+  /* toy 1: threshold */
+  mod(function(){
+    var mode='poster', busy=false;
+    var nurse=$('#nurse'), tile=$('#tile'), track=$('#track'), ring=$('#disp-ring'), poster=$('#poster'), out=$('#thr-out');
+    $$('#toy-threshold [data-mode]').forEach(function(b){ b.addEventListener('click',function(){ mode=b.dataset.mode; $$('#toy-threshold [data-mode]').forEach(function(x){x.setAttribute('aria-pressed',x===b)}); poster.setAttribute('stroke', mode==='poster'?'#ECE9E2':'#2E3440'); $('#poster-t').setAttribute('fill', mode==='poster'?'#ECE9E2':'#2E3440'); tile.setAttribute('stroke', mode==='tile'?'#ECE9E2':'#2E3440'); reset(); }); });
+    function reset(){ nurse.setAttribute('cx',14); nurse.setAttribute('cy',158); tile.setAttribute('fill','#0F1115'); track.setAttribute('opacity',0); ring.setAttribute('opacity',0); }
+    var straight=[[14,158],[340,158]];
+    var detour=[[14,158],[115,158],[115,158],[239,158],[239,104],[239,104],[340,158]];
+    function tween(pts,ms,done){ if(rm){ var l=pts[pts.length-1]; nurse.setAttribute('cx',l[0]); nurse.setAttribute('cy',l[1]); return done(); } var t0=null; var segs=pts.length-1; function f(ts){ if(!t0)t0=ts; var p=Math.min(1,(ts-t0)/ms); var s=Math.min(segs-1,Math.floor(p*segs)); var lp=p*segs-s; var a=pts[s], b=pts[s+1]; nurse.setAttribute('cx',a[0]+(b[0]-a[0])*lp); nurse.setAttribute('cy',a[1]+(b[1]-a[1])*lp); if(mode==='tile'&&p>0.3){ tile.setAttribute('fill','#efeee9'); track.setAttribute('opacity',1); } if(mode==='tile'&&p>0.62&&p<0.75){ ring.setAttribute('opacity',1); } if(p<1) requestAnimationFrame(f); else done(); } requestAnimationFrame(f); }
+    $('#walk').addEventListener('click',function(){ if(busy)return; busy=true; reset(); out.textContent='Walking.'; if(mode==='poster'){ tween(straight,1400,function(){ busy=false; out.textContent='Walked straight past. The poster was not noticed.'; }); } else { tween(detour,2600,function(){ busy=false; out.textContent='Stopped, used the dispenser, entered the ward.'; }); } });
+  });
+
+  /* toy 2: kata retention curve */
+  mod(function(){
+    var range=$('#kata-range'), n=$('#kata-n'), curve=$('#kata-curve'), base=$('#kata-base'), marks=$('#kata-marks'), out=$('#kata-out');
+    var reps=[2,5,10,20];
+    function x(d){return 30+d/30*310} function y(r){return 150-r*130}
+    function draw(k){ var S=3, R=1, pts=[], bpts=[]; var next=reps.slice(0,k); marks.innerHTML=''; for(var d=0; d<=30; d+=0.5){ if(next.length && d>=next[0]){ next.shift(); R=1; S*=2.4; var m=document.createElementNS('http://www.w3.org/2000/svg','circle'); m.setAttribute('cx',x(d)); m.setAttribute('cy',y(1)); m.setAttribute('r',4); m.setAttribute('fill','#efeee9'); marks.appendChild(m); } pts.push(x(d)+','+y(R)); R=R*Math.exp(-0.5/S); bpts.push(x(d)+','+y(Math.exp(-d/3))); } curve.setAttribute('points',pts.join(' ')); base.setAttribute('points',bpts.join(' ')); var end=Math.round(R*100); n.textContent=k; out.textContent = k===0 ? 'One 2-hour session: about '+end+' percent remembered by day 30.' : k+' spaced sessions: about '+end+' percent remembered by day 30. Same total time.'; }
+    range.addEventListener('input',function(){ draw(+range.value); }); draw(0);
+  });
+
+  /* toy 3: roti */
+  mod(function(){
+    var counts={a:3,b:4}, opts=[2,3,4,5,6,8];
+    function slice(n,i,r){ var a0=(i/n)*2*Math.PI - Math.PI/2, a1=((i+1)/n)*2*Math.PI - Math.PI/2; var x0=r*Math.cos(a0), y0=r*Math.sin(a0), x1=r*Math.cos(a1), y1=r*Math.sin(a1); var large=(a1-a0)>Math.PI?1:0; return 'M0 0 L'+x0.toFixed(1)+' '+y0.toFixed(1)+' A'+r+' '+r+' 0 '+large+' 1 '+x1.toFixed(1)+' '+y1.toFixed(1)+' Z'; }
+    function draw(){ ['a','b'].forEach(function(k){ var g=$('#roti-'+k), n=counts[k], h=''; for(var i=0;i<n;i++){ h+='<path d="'+slice(n,i,60)+'" fill="'+(i===0?'#efeee9':'#0F1115')+'" stroke="#ECE9E2" stroke-width="2" stroke-linejoin="round"/>'; } g.innerHTML=h; $('#roti-'+k+'-n').textContent=n; }); var a=counts.a, b=counts.b, out=$('#roti-out'); if(a===b) out.textContent='Same size pieces. 1/'+a+' equals 1/'+b+'.'; else { var big=a<b?'A':'B', small=a<b?b:a, sm=a<b?a:b; out.textContent='Roti '+big+' has the bigger piece. 1/'+sm+' is bigger than 1/'+small+' because fewer people share it.'; } }
+    $$('#toy-roti .step').forEach(function(btn){ btn.addEventListener('click',function(){ var k=btn.dataset.roti, i=opts.indexOf(counts[k])+(+btn.dataset.d); i=Math.max(0,Math.min(opts.length-1,i)); counts[k]=opts[i]; draw(); }); }); draw();
+  });
+
+  /* toy 4: rep */
+  mod(function(){
+    var g=$('#beads'), out=$('#rep-out'), i=0, N=10;
+    var pos=[]; for(var k=0;k<N;k++){ var t=k/N*2*Math.PI; pos.push([180+140*Math.cos(t+Math.PI), 75+45*Math.sin(t+Math.PI)]); }
+    function draw(){ var h=''; for(var k=0;k<N;k++){ h+='<circle cx="'+pos[k][0].toFixed(1)+'" cy="'+pos[k][1].toFixed(1)+'" r="10" fill="'+(k<i?'#efeee9':'#0F1115')+'" stroke="#ECE9E2" stroke-width="2"/>'; } if(i>0&&i<=N){ var p=pos[i-1]; h+='<circle cx="'+p[0].toFixed(1)+'" cy="'+p[1].toFixed(1)+'" r="15" fill="none" stroke="#ECE9E2" stroke-width="2"/>'; } g.innerHTML=h; }
+    $('#rep-btn').addEventListener('click',function(){ if(i>=N){ return; } i++; draw(); out.textContent = i<N ? (N-i)+' beads left.' : 'Set complete.'; });
+    $('#rep-reset').addEventListener('click',function(){ i=0; draw(); out.textContent='Ten beads. Move one per rep.'; }); draw();
+  });
+
+
+  /* roles: prioritisation */
+  mod(function(){
+    var feats=[
+      {n:'Outcome screen at month 36',t:9,r:6,cut:false},
+      {n:'One-tap bank deep link',t:8,r:2,cut:false},
+      {n:'Share your result card',t:3,r:6,cut:false},
+      {n:'Daily reminder push',t:2,r:7,cut:false},
+      {n:'Leaderboard among friends',t:1,r:5,cut:true,why:'not built: no leaderboards on money'}
+    ];
+    var list=$('#prio-list'), out=$('#prio-out');
+    function draw(goal){ var k=goal==='transfer'?'t':'r'; var sorted=feats.slice().sort(function(a,b){return b[k]-a[k]}); list.innerHTML=sorted.map(function(f,i){ var cut=f.cut||i>1; return '<li class="'+(cut?'cut':'')+'"><span>'+f.n+(f.why?' <small>('+f.why+')</small>':'')+'</span><b>'+f[k]+'</b></li>'; }).join(''); out.textContent = goal==='transfer' ? 'Build the outcome screen and the bank link. Everything else waits.' : 'Build the outcome screen and the reminder. The share card waits. The leaderboard is never built.'; }
+    $$('#toy-prio [data-goal]').forEach(function(b){ b.addEventListener('click',function(){ $$('#toy-prio [data-goal]').forEach(function(x){x.setAttribute('aria-pressed',x===b)}); draw(b.dataset.goal); }); }); draw('transfer');
+  });
+
+  /* roles: greenlight gate */
+  mod(function(){
+    var cpi=$('#cpi'), d1=$('#d1'), out=$('#gate-out');
+    function draw(){ var c=+cpi.value/100, r=+d1.value; $('#g-cpi').textContent='$'+c.toFixed(2); $('#g-d1').textContent=r+'%'; var m; if(c<=1.5&&r>=40) m='Scale: increase spend and keep testing creatives.'; else if(c<=1.5) m='Ads work, the game does not retain. Fix the first session; pause creative work.'; else if(r>=40) m='The game retains, the ads do not convert. Test new creatives for two weeks; keep the build.'; else m='Stop the project. Write the post-mortem this week and reassign the team.'; out.textContent=m; }
+    cpi.addEventListener('input',draw); d1.addEventListener('input',draw); draw();
+  });
+
+  /* roles: economy */
+  mod(function(){
+    var f=$('#faucet'), d=$('#drain'), line=$('#e-line'), out=$('#econ-out'), CAP=1000;
+    function x(t){return 30+t/30*310} function y(v){return 130-Math.min(v,CAP)/CAP*100}
+    function draw(){ var F=+f.value, D=+d.value; $('#e-f').textContent=F; $('#e-d').textContent=D; var b=200, pts=[], wall=null, capday=null; for(var t=0;t<=30;t++){ pts.push(x(t)+','+y(Math.max(b,0))); if(b<=0&&wall===null) wall=t; if(b>=CAP&&capday===null) capday=t; b=b+F-D; } line.setAttribute('points',pts.join(' ')); var ratio=F/D; if(wall!==null) out.textContent='Players run out of coins on day '+wall+'. Most will quit rather than pay.'; else if(capday!==null) out.textContent='The wallet hits its cap on day '+capday+'. Coins lose value and nobody spends.'; else if(ratio>1.15) out.textContent='Coins are piling up. Add a way to spend them before day 45.'; else if(ratio<0.87) out.textContent='Coins are slowly running out. Increase earnings later in the session.'; else out.textContent='Balanced. Earning and spending stay close, so every purchase is a real decision.'; }
+    f.addEventListener('input',draw); d.addEventListener('input',draw); draw();
+  });
+
+  /* roles: first hour */
+  mod(function(){
+    var items=$$('#ask-list li'), i=0, next=$('#ask-next');
+    function show(){ items.forEach(function(li,k){ li.hidden=k>i; }); next.disabled=i>=items.length-1; next.textContent = i>=items.length-1 ? 'End of lesson one' : 'Ask the next question'; }
+    next.addEventListener('click',function(){ if(i<items.length-1){ i++; show(); } });
+    $('#ask-reset').addEventListener('click',function(){ i=0; show(); }); show();
+  });
+
+
+  /* toy 5: salary day */
+  mod(function(){
+    var P=5000, n=36, r=0.12/12;
+    var sip=Math.round(P*((Math.pow(1+r,n)-1)/r)*(1+r)); var keep=P*n; var vals={spend:0,keep:keep,sip:sip};
+    var fmt=function(v){ return '₹'+v.toLocaleString('en-IN'); };
+    var out=$('#sal-out'), bars=$('#sal-bars');
+    var lines={ spend:'Nothing saved. Compare with the other two options.', keep:'Saved, but no growth. The third bar is the same money with an automatic investment set up in month one.', sip:'The difference between the top two bars comes from one decision in month one.' };
+    $$('#toy-salary [data-pick]').forEach(function(b){ b.addEventListener('click',function(){ var k=b.dataset.pick; $$('#toy-salary [data-pick]').forEach(function(x){x.setAttribute('aria-pressed',x===b)}); bars.hidden=false; ['spend','keep','sip'].forEach(function(key){ var el=$('#sal-bars .bar[data-k="'+key+'"]'); el.classList.toggle('picked',key===k); $('i',el).style.setProperty('--pct',(vals[key]/sip*100)+'%'); $('#v-'+key).textContent=fmt(vals[key]); }); out.textContent=lines[k]; }); });
+  });
+
+
+  /* reel: load YouTube on demand */
+  mod(function(){
+    $$('[data-yt]').forEach(function(box){ box.addEventListener('click',function(){ var id=box.dataset.yt, list=box.dataset.list; var src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0'+(list?'&list='+list:''); box.innerHTML='<iframe src="'+src+'" title="Video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>'; box.classList.add('live'); },{once:true}); });
+  });
+})();
+  /* ===== rich layer ===== */
+  (function(){
+    var rm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var prog=document.createElement('div'); prog.id='progress'; document.body.appendChild(prog);
+    function onScroll(){ var h=document.documentElement; var p=h.scrollTop/(h.scrollHeight-h.clientHeight); prog.style.width=(p*100)+'%'; }
+    window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+    /* cursor */
+    if(window.matchMedia('(hover:hover) and (pointer:fine)').matches){
+      var cur=document.createElement('div'); cur.id='cur'; var ring=document.createElement('div'); ring.id='ring'; document.body.appendChild(cur); document.body.appendChild(ring);
+      var rx=0,ry=0,tx=0,ty=0;
+      document.addEventListener('mousemove',function(e){ tx=e.clientX; ty=e.clientY; cur.style.transform='translate('+tx+'px,'+ty+'px) translate(-50%,-50%)'; var t=e.target.closest && e.target.closest('a,button,summary,[role=button],input,.flip,.card'); document.body.classList.toggle('hovering',!!t); });
+      (function loop(){ rx+=(tx-rx)*.18; ry+=(ty-ry)*.18; ring.style.transform='translate('+rx+'px,'+ry+'px) translate(-50%,-50%)'; requestAnimationFrame(loop); })();
+    }
+    /* reveal */
+    var rvs=document.querySelectorAll('.rv');
+    if(rm){ rvs.forEach(function(e){e.classList.add('in')}); }
+    else { var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }); },{threshold:.12,rootMargin:'0px 0px -6% 0px'}); rvs.forEach(function(e){ io.observe(e); }); }
+    /* spotlight */
+    document.querySelectorAll('.spot').forEach(function(el){ el.addEventListener('mousemove',function(e){ var r=el.getBoundingClientRect(); el.style.setProperty('--mx',(e.clientX-r.left)+'px'); el.style.setProperty('--my',(e.clientY-r.top)+'px'); }); });
+    /* count-up */
+    document.querySelectorAll('[data-count]').forEach(function(b){
+      var target=+b.dataset.count, pre=b.dataset.prefix||'', suf=b.dataset.suffix||'';
+      if(rm){ b.textContent=pre+target+suf; return; }
+      var done=false; var o=new IntersectionObserver(function(es){ if(es[0].isIntersecting&&!done){ done=true; var t0=null; (function f(ts){ if(!t0)t0=ts; var p=Math.min(1,(ts-t0)/1300); var v=Math.round(target*(1-Math.pow(1-p,3))); b.textContent=pre+v+suf; if(p<1) requestAnimationFrame(f); })(performance.now()); o.disconnect(); } },{threshold:.5}); o.observe(b);
+    });
+    /* sphere */
+    var cv=document.getElementById('sphere'); if(!cv) return;
+    var ctx=cv.getContext('2d'), W,H,pts=[],N=260, ang=0, mx=0,my=0, visible=true;
+    for(var i=0;i<N;i++){ var y=1-(i/(N-1))*2, r=Math.sqrt(1-y*y), th=i*2.399963; pts.push([r*Math.cos(th),y,r*Math.sin(th)]); }
+    function size(){ var b=cv.parentNode.getBoundingClientRect(); W=cv.width=b.width*devicePixelRatio; H=cv.height=b.height*devicePixelRatio; }
+    size(); window.addEventListener('resize',size);
+    document.addEventListener('mousemove',function(e){ mx=(e.clientX/innerWidth-.5); my=(e.clientY/innerHeight-.5); });
+    var vio=new IntersectionObserver(function(es){ visible=es[0].isIntersecting; },{threshold:0}); vio.observe(cv);
+    function frame(){
+      if(visible){
+        ctx.clearRect(0,0,W,H);
+        var cx=W*(innerWidth>920?0.76:0.5), cy=H*(innerWidth>920?0.46:0.30), R=Math.min(W,H)*(innerWidth>920?0.62:0.5);
+        ang+=rm?0:0.0022; var ay=ang+mx*0.6, ax=0.35+my*0.5;
+        var P=[];
+        for(var i=0;i<N;i++){ var x=pts[i][0],y=pts[i][1],z=pts[i][2];
+          var x1=x*Math.cos(ay)-z*Math.sin(ay), z1=x*Math.sin(ay)+z*Math.cos(ay);
+          var y1=y*Math.cos(ax)-z1*Math.sin(ax), z2=y*Math.sin(ax)+z1*Math.cos(ax);
+          var d=1/(1.9-z2*0.6); P.push([cx+x1*R*d, cy+y1*R*d, z2, d]); }
+        ctx.lineWidth=1*devicePixelRatio;
+        for(var i=0;i<N;i++){ for(var j=i+1;j<N;j++){ var dx=P[i][0]-P[j][0], dy=P[i][1]-P[j][1]; var dist=dx*dx+dy*dy; var lim=(R*0.19)*(R*0.19); if(dist<lim){ var a=(1-dist/lim)*0.7*(0.55+0.45*((P[i][2]+P[j][2])/2+1)/2); ctx.strokeStyle='rgba(201,42,25,'+Math.max(0,Math.min(0.7,a))+')'; ctx.beginPath(); ctx.moveTo(P[i][0],P[i][1]); ctx.lineTo(P[j][0],P[j][1]); ctx.stroke(); } } }
+        for(var i=0;i<N;i++){ var al=0.25+0.75*((P[i][2]+1)/2); ctx.fillStyle='rgba(236,233,226,'+al.toFixed(2)+')'; ctx.beginPath(); ctx.arc(P[i][0],P[i][1],(1.3+P[i][3]*1.2)*devicePixelRatio,0,6.283); ctx.fill(); }
+      }
+      if(!rm) requestAnimationFrame(frame);
+    }
+    frame();
+  })();
+</script>
+</body>
+</html>
