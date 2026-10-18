@@ -5,6 +5,8 @@ import { Nav, Hero, Mirror, Proof } from './sections1.jsx';
 import { Work, Sheet, Pipeline, Positions, Craft } from './sections2.jsx';
 import { Diagnostic, Ways, Method, Faq, Record, Contact } from './sections3.jsx';
 import { Demos, Library, Papers } from './sections4.jsx';
+import { Lenses, StartEasy, ShareButton } from './sections5.jsx';
+import { Thinking } from './sections6.jsx';
 
 export default function App() {
   const [sheet, setSheet] = useState(null);
@@ -21,21 +23,25 @@ export default function App() {
         <Hero />
         <Mirror />
         <Proof />
+        <Lenses />
         <Work onOpen={open} />
         <Pipeline />
         <Positions />
         <Craft />
+        <Thinking />
         <Demos />
         <Library />
         <Diagnostic onOpen={open} />
         <Ways />
         <Method />
+        <StartEasy />
         <Faq />
         <Record />
         <Papers />
       </main>
       <Contact />
       <AnimatePresence>{sheet && <Sheet key={sheet.id} id={sheet.id} onClose={close} returnTo={sheet.el} />}</AnimatePresence>
+      <ShareButton />
       <div className="grain" aria-hidden="true" />
       <Cursor />
     </>

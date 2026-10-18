@@ -2,6 +2,9 @@
 
 export const EMAIL = 'karthik.mbindumon@gmail.com';
 
+// The line that opens and closes the page. Change it here and everywhere follows.
+export const HEADLINE = ['Picture it.', 'Then run it.'];
+
 export const ribbon = [
   'BooBoo Games',
   'Funcell Games',
@@ -320,6 +323,7 @@ export const faq = [
   { q: 'How does an engagement start?', a: 'With a short conversation about the part that is stuck, then a pilot of 4 to 8 weeks with a target number agreed before anything is built. The verdict is written down, whichever way it goes.' },
   { q: 'Where is Karthik based, and does he work remotely?', a: 'Mumbai. Remote or on-site, depending on the work.' },
   { q: 'What does he work in?', a: 'Unity, Unreal Engine, 3D visualisation tools, Android development and AI-based production tools, plus the workflows built around them.' },
+  { q: 'What does hiring an international candidate involve?', a: 'The first stage needs no immigration process: a paid 4 to 8 week pilot on contract, or through an employer-of-record, which legally employs him in his own country on your behalf. If a role later needs him on site, the pathway depends on the country and role; your immigration counsel confirms it, and Karthik prepares the documents in advance.' },
   { q: 'Which roles can he take?', a: 'Game producer, product or project manager, systems designer, and game design mentor. The role is a starting point, not a box.' },
   { q: 'Can a pilot be about something other than games?', a: 'Yes. The same method applies to onboarding, training, fitness and hospitality products: anywhere a behaviour has to change and a number can measure it.' },
   { q: 'What helps most in a first message?', a: 'The part that is stuck, what it costs now, and the date it matters by. One paragraph is enough.' },

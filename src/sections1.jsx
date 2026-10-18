@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform, useMotionValue, useSpring, useMotionTemplate, useMotionValueEvent, useReducedMotion } from 'motion/react';
-import { ribbon, mirror, proof } from './content.js';
+import { ribbon, mirror, proof, HEADLINE } from './content.js';
 import { EASE, STILL, SplitWords, Reveal, Pill, Marquee, Count, useSpot, useFine, scrollToId, useSceneProgress } from './ui.jsx';
 
 /* ---------- navigation island ---------- */
@@ -125,7 +125,7 @@ export function Hero() {
     <section id="top" className="hero" aria-labelledby="hero-h">
       <div className="hero__id">
         <span translate="no">Karthik Bindumon</span>
-        <span>Game producer, Mumbai</span>
+        <span>Producer and behaviour-change designer, Mumbai</span>
       </div>
 
       <motion.div className="hero__stage" style={reduce ? undefined : { y: lift }}>
@@ -133,9 +133,9 @@ export function Hero() {
           <motion.div className="hero__disc" {...enter} />
         </motion.div>
         <h1 id="hero-h" className="hero__h">
-          <span className="sr">Picture it. Then play it.</span>
-          <SplitWords aria-hidden="true" className="hero__l hero__l1" text="Picture it." immediate delay={0.45} />
-          <SplitWords aria-hidden="true" className="hero__l hero__l2" text="Then play it." immediate delay={0.85} />
+          <span className="sr">{HEADLINE.join(' ')}</span>
+          <SplitWords aria-hidden="true" className="hero__l hero__l1" text={HEADLINE[0]} immediate delay={0.45} />
+          <SplitWords aria-hidden="true" className="hero__l hero__l2" text={HEADLINE[1]} immediate delay={0.85} />
         </h1>
         <motion.img
           className="hero__img"
@@ -154,7 +154,7 @@ export function Hero() {
       <div className="hero__foot">
         <Reveal delay={1.35} y={16} className="hero__lead">
           <p>
-            The game in your head, live: from the first asset to the last level, built on AI-first production with 30+ launches behind it.
+            The change you picture, running: 50+ people led, 30+ products shipped, and whole workflows rebuilt around AI.
           </p>
         </Reveal>
         <Reveal delay={1.5} y={16} className="hero__actions">
